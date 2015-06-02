@@ -1,0 +1,15 @@
+    <h4>Contact a Coach</h4>
+    <ul>
+        {{#each allCoaches}}
+        <li>
+          <a href="{{url}}">{{forename1}} {{surname}}</a>
+          <p class="mobile">mobile: {{mobilephone}}</p>
+        </li>
+        {{/each}}
+	</ul>
+
+    <hr />
+      
+    <a href="coaching_schedule.html" class="large button">Coaching Schedule</a><br />
+    <a href="paying.html" class="large button">Paying for Coaching</a>
+

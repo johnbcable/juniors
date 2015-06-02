@@ -1,0 +1,292 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hampton-in-Arden Tennis Club - Juniors - </title>
+    <link rel="stylesheet" href="bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      #map-canvas {
+        width: 100%;
+        padding: 10px;
+        height: 300px;
+        overflow: hidden;
+        border: 2px solid black;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script>
+      var map;
+      function initialize() {
+        var mapOptions = {
+          zoom: 16,
+          center: new google.maps.LatLng(52.429385, -1.701722)
+        };
+        map = new google.maps.Map(document.getElementById('map-canvas'),
+            mapOptions);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<!--
+<nav class="top-bar" data-options"is_hover: false">
+-->
+<!--
+<div class="contain-to-grid">
+-->
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <a href="index.html"><a href="http://hamptontennis.org.uk"><img src="./img/small_logo.gif" /></a></a><br />
+        <!-- <h1><a href="#">Hampton-in-Arden Tennis Club </a></h1>   -->
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="coaching.html">Coaching</a></li>
+        <li><a href="socialtennis.html">Social Tennis</a>
+        <li><a href="compete.html">Compete</a>
+        <li><a href="holidaycamps.html">Holiday Clubs</a></li>
+        <li><a href="search.html">Search &raquo;</a></li>
+      </ul>
+    </section>
+
+  </nav>
+<!--
+</div>
+-->
+
+  <!--   Main content area       -->
+
+<!-- Main Page Content and Sidebar -->
+ 
+  <div class="row">
+ 
+    <!-- Contact Details -->
+    <div class="large-8 medium-8 small-12 columns">
+ 
+      <h2>Get in Touch!</h2>
+      <hr />
+      <div class="row">
+
+        <div class="large-3 medium-3 small-12 columns">
+          <a class="button" href="mailto:committee@hamptontennis.org.uk">Contact the Club</a>
+        </div>
+        <div class="large-9 medium-9 small-12 columns">
+          <p>
+            We&apos;d love to hear from you. You can either reach out to our club as a whole and one of our committee members will get back to you, or if you have a specific question then go direct to one of our committee members who can best help you. 
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Now put in the specific query contact details  -->
+
+      <hr />
+      <h3>Specific queries</h3>
+
+      <table id="contacts" width="100%">
+        <thead>
+          <tr>
+            <th>I have a question about ...</th>
+            <th>Contact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Coaching at Hampton-in-Arden tennis club</td>
+            <td><a href="mailto:coaching@hamptontennis.org.uk" class="small button">Coaching support</td>
+          </tr>
+          <tr>
+            <td>Club rules, membership fees, policies, Clubmark etc</td>
+            <td><a href="mailto:committee@hamptontennis.org.uk" class="small button">Committee</td>
+          </tr>
+          <tr>
+            <td>Tennis for juniors at the club</td>
+            <td><a href="mailto:juniors@hamptontennis.org.uk" class="small button">Juniors</td>
+          </tr>
+          <tr>
+            <td>Ladies league tennis at the club</td>
+            <td><a href="mailto:ladiesleague@hamptontennis.org.uk" class="small button">Ladies League</td>
+          </tr>
+          <tr>
+            <td>Mens league tennis at the club</td>
+            <td><a href="mailto:league@hamptontennis.org.uk" class="small button">Mens League</td>
+          </tr>
+          <tr>
+            <td>Social activities and events at the club</td>
+            <td><a href="mailto:social@hamptontennis.org.uk" class="small button">Social tennis</td>
+          </tr>
+          <tr>
+            <td>Internal club tournaments</td>
+            <td><a href="mailto:tournaments@hamptontennis.org.uk" class="small button">Tournament organisers</td>
+          </tr>
+          <tr>
+            <td>Volunteering at the club</td>
+            <td><a href="mailto:committee@hamptontennis.org.uk" class="small button">Club secretary</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>   <!-- end of outer 8-columns -->
+ 
+    <!-- End Contact Details -->
+ 
+ 
+    <!-- Sidebar -->
+ 
+ 
+    <div class="large-4 medium-4 small-12 columns">
+      <div class="row">
+        <div class="large-12 medium-12 small-12 columns">
+          <h3>Where we are</h3>
+          <div id="map-canvas">
+
+          </div>
+<!--
+          <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=209996455074132512845.0004f10ca20c26370c1ed&amp;ie=UTF8&amp;t=m&amp;ll=52.429798,-1.702259&amp;spn=0.003925,0.006437&amp;z=16&amp;output=embed"></iframe><br /><small>View <a href="https://maps.google.com/maps/ms?msa=0&amp;msid=209996455074132512845.0004f10ca20c26370c1ed&amp;ie=UTF8&amp;t=m&amp;ll=52.429798,-1.702259&amp;spn=0.003925,0.006437&amp;z=16&amp;source=embed" style="color:#0000FF;text-align:left">Hampton In Arden Sports Club</a> in a larger map</small><br />
+-->
+        </div>
+      </div>
+      <hr />
+      <p>
+        Hampton-In-Arden Tennis Club<br />
+        Shadowbrook Lane<br />
+        Hampton-In-Arden<br />
+        Solihull<br />
+        West Midlands<br />
+        B92 0DQ
+      </p>
+      <hr />
+      <p>
+        Chairman: Chris Barnes
+      </p>
+      <p>
+        Head Coach: Ian Poole<br />
+        07968 451956
+      </p>
+      <hr />
+    </div>
+    <!-- End Sidebar -->
+  </div>
+ 
+  <!-- End Main Content and Sidebar -->
+ 
+
+
+  <!--   end of content area     -->
+
+  <!--   Define the footer area  -->
+  
+  <!-- First row contains big footer menu and social mdeia stuff -->
+
+  <footer class="footer" role="contentinfo">
+
+    <div class="row toprow">
+        <div class="large-9 bigfooter columns">
+          <div class="row">
+            <div class="large-3 medium-3 small-12 clublogo columns">
+                <p class="footermenuhead"><a href="index.html">Home</a></p>
+                <a href="http://hamptontennis.org.uk"><img src="./img/logo.gif" /></a>
+                <br />
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Services</p>
+                <ul>
+                  <li><a href="contact.html" title="">Contact Us</a></li>
+                  <li><a href="coaching.html" title="">Coaching</a></li>
+                  <li><a href="holidaycamps.html" title="">Holiday Clubs</a></li>
+                  <li><a href="socialtennis.html" title="">Social Tennis</a></li>
+                  <li><a href="compete.html" title="">Competing</a></li><li><a href="faqs.html" title="">FAQ&apos;s</a></li>
+                </ul>
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaching</p>
+                <ul>
+                  <li><a href="coaching.html">Overview</a></li>
+                  <li><a href="junior_coaching.html">Junior Groups</a></li>
+                  <li><a href="one-to-one.html">One-to-One</a></li>
+                  <li><a href="adult_coaching.html">Adults</a></li>
+                  <li><a href="paying.html">Coaching Fees</a></li>
+                  <li><a href="coaching_schedule.html">Schedule</a></li>
+                  <li><a href="minitennis.html">Mini-Tennis</a></li>
+                  
+                </ul>
+
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaches</p>
+                 <ul>
+                  <li><a href="ianpoole.html" title="Head Coach - Ian Poole">Ian Poole</a></li>
+                  <li><a href="sampeace.html" title="Performance Coach - Sam Peace">Sam Peace</a></li>
+                  <li><a href="belkacemchefri.html" title="Coach - Belkacem Chefri">Bel Chefri</a></li>
+                  
+                  
+                  
+                  <li><a href="zachjones.html" title="Coach - Zach Jones">Zach Jones</a></li><li><a href="samhiskett.html" title="Coach - Sam Hiskett">Sam Hiskett</a></li>
+               </ul>
+            </div>
+          </div>
+      </div>
+        <div class="large-3 medium-3 social hide-for-small columns">
+          <div class="row">
+            <div class="large-12 columns">
+              <h3 class"footermenuhead">Stay in Touch</h3>
+              <ul class="inline-list">
+                <li class="facebook"><a href="http://facebook.com/hamptontennis" title="Facebook"></a></li>
+                <li class="twitter"><a href="http://twitter.com/hamptontennis" title="Twitter"></a></li>
+                <li class="wordpress"><a href="http://hamptontennis.wordpress.com" title="Wordpress"></a></li>
+                <li class="flickr"><a href="http://www.flickr.com/photos/103781054@N07/" title="Flickr"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Second row - with copyright info etc -->
+    <div class="row bottomrow hide-for-small">
+      <div class="large-4 columns">
+        <p>Hampton-in-Arden Tennis Club</p>
+      </div>
+      <div class="large-4 columns">
+          &nbsp;
+      </div>
+      <div class="large-4 columns">
+          <p>&copy; JC 2013. All rights reserved</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!--  end of footer definition  -->
+
+  <!-- Map Modal -->
+ 
+  <div class="reveal-modal" id="mapModal">
+    <h4>Where We Are</h4>
+    <p><img src="http://placehold.it/800x600&text=" /></p>
+ 
+    <!-- Any anchor with this class will close the modal. This also inherits certain styles, which can be overriden. -->
+    <a href="#" class="close-reveal-modal">×</a>
+  </div>
+    
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="./foundation/js/foundation.reveal.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

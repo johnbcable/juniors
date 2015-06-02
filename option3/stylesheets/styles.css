@@ -1,0 +1,449 @@
+/* line 98, social/*.png */
+.social-sprite, .footer .social li.facebook a, .footer .social li.facebook a:hover, .footer .social li.twitter a, .footer .social li.twitter a:hover, .footer .social li.linkedin a, .footer .social li.linkedin a:hover, .footer .social li.dribble a, .footer .social li.dribble a:hover {
+  background: url('../img/social-s86ffb00f08.png') no-repeat;
+}
+
+@font-face {
+  font-family: "ChunkFive";
+  src: url('fonts/Chunkfive-webfont.eot');
+  src: url('fonts/Chunkfive-webfont.eot?#iefix') format('eot'), url('fonts/Chunkfive-webfont.ttf') format('truetype'), url('fonts/Chunkfive-webfont.otf') format('opentype'), url('fonts/Chunkfive-webfont.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url('fonts/OpenSans-Regular-webfont.eot');
+  src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('eot'), url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('fonts/OpenSans-Regular-webfont.otf') format('opentype'), url('fonts/OpenSans-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "FoundationIcons";
+  src: url('fonts/foundation-icons.eot');
+  src: url('fonts/foundation-icons.eot?#iefix') format('eot'), url('fonts/foundation-icons.ttf') format('truetype'), url('fonts/foundation-icons.otf') format('opentype'), url('fonts/foundation-icons.woff') format('woff');
+  font-weight: normal;
+}
+
+/* line 10, ../sass/styles.scss */
+.top-bar .name h1 {
+  font-family: "ChunkFive", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 17, ../sass/styles.scss */
+.button {
+  border: 0;
+  -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0) inset;
+  -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0) inset;
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0) inset;
+}
+
+/*   content general  */
+/* line 24, ../sass/styles.scss */
+.content {
+  margin-top: 1.875em;
+  background-color: white;
+  /*     slideshow    */
+}
+/* line 27, ../sass/styles.scss */
+.content .intro {
+  padding: 1.25em 0;
+  background-color: #c2bdb7;
+  color: white;
+  margin-bottom: 1.25em;
+}
+/* line 32, ../sass/styles.scss */
+.content .intro .button {
+  margin-top: 1.25em;
+  background-color: #a8bb26;
+  width: 100%;
+}
+/* line 36, ../sass/styles.scss */
+.content .intro .button:hover {
+  background-color: #c4d73d;
+}
+/* line 43, ../sass/styles.scss */
+.content .orbit-container {
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #ffffff), color-stop(100%, #f4f2ea));
+  background: -webkit-radial-gradient(#ffffff, #f4f2ea);
+  background: -moz-radial-gradient(#ffffff, #f4f2ea);
+  background: -o-radial-gradient(#ffffff, #f4f2ea);
+  background: radial-gradient(#ffffff, #f4f2ea);
+}
+/* line 45, ../sass/styles.scss */
+.content .orbit-container li {
+  padding: 1.25em emcalc(40px);
+}
+/* line 47, ../sass/styles.scss */
+.content .orbit-container li:nth-child(1) {
+  background: url('../img/desktop.png?1361813776') no-repeat left bottom;
+}
+/* line 50, ../sass/styles.scss */
+.content .orbit-container li:nth-child(2) {
+  background: url('../img/editor.png?1361813982') no-repeat left bottom;
+}
+/* line 53, ../sass/styles.scss */
+.content .orbit-container li:nth-child(3) {
+  background: url('../img/macbook.png?1361814389') no-repeat left bottom;
+}
+/* line 56, ../sass/styles.scss */
+.content .orbit-container li:nth-child(4) {
+  background: url('../img/panel.png?1361814705') no-repeat left bottom;
+}
+/* line 60, ../sass/styles.scss */
+.content .orbit-container a.orbit-prev, .content .orbit-container a.orbit-next {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+/* line 65, ../sass/styles.scss */
+.content .orbit-container:hover a.orbit-prev, .content .orbit-container:hover a.orbit-next {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 69, ../sass/styles.scss */
+.content .orbit-container a
+h3 {
+  padding: 1.25em;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/* line 72, ../sass/styles.scss */
+.content .orbit-container a
+h3 + p {
+  padding: 1.25em;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  bottom: 1.25em;
+}
+/* line 81, ../sass/styles.scss */
+.content .title-section {
+  margin-bottom: 0.875em;
+  padding-bottom: 0.875em;
+  border-bottom: 0.1875em solid #e6e6e6;
+}
+/* line 86, ../sass/styles.scss */
+.content .title-section-secondary, .content .home .feature h4, .content .about .story > columns > .row h4 {
+  margin-bottom: 0.875em;
+  padding-bottom: 0.875em;
+  border-bottom: 0.1875em solid #d9b183;
+}
+/* line 92, ../sass/styles.scss */
+.content .home {
+  padding-bottom: 1.5625em;
+}
+/* line 94, ../sass/styles.scss */
+.content .home .feature {
+  /*  now put the icons in  */
+}
+/* line 95, ../sass/styles.scss */
+.content .home .feature h4 {
+  padding-left: emClc(20px);
+  position: relative;
+}
+/* line 100, ../sass/styles.scss */
+.content .home .feature h4:before {
+  content: "";
+  display: inline-block;
+  padding: 0.3125em 0;
+  width: 1.75em;
+  height: 1.75em;
+  position: absolute;
+  left: 0;
+  bottom: 0.3125em;
+  font-family: "FoundationIcons";
+  font-size: 1.375em;
+}
+/* line 113, ../sass/styles.scss */
+.content .home .feature:nth-of-type(1) h4:before {
+  content: "\f000";
+}
+/* line 116, ../sass/styles.scss */
+.content .home .feature:nth-of-type(2) h4:before {
+  content: "\f00a";
+}
+/* line 119, ../sass/styles.scss */
+.content .home .feature:nth-of-type(3) h4:before {
+  content: "\f00e";
+}
+/* line 122, ../sass/styles.scss */
+.content .home .feature:nth-of-type(4) h4:before {
+  content: "\f01e";
+}
+/* line 129, ../sass/styles.scss */
+.content .page {
+  padding-top: 1.5625em;
+  padding-bottom: 1.5625em;
+  color: #4d4d4d;
+  margin-top: 1.5625em;
+  margin-bottom: 0;
+}
+/* line 135, ../sass/styles.scss */
+.content .page .panel p:last-of-type {
+  margin-bottom: 0;
+}
+/* line 144, ../sass/styles.scss */
+.content .page .button {
+  width: 100%;
+}
+/* line 149, ../sass/styles.scss */
+.content .service-list .service {
+  position: relative;
+  padding-left: 9.375em;
+}
+/* line 152, ../sass/styles.scss */
+.content .service-list .service:before {
+  content: "";
+  display: inline-block;
+  padding: 0.3125em;
+  position: absolute;
+  left: -0.125em;
+  top: -0.125em;
+  font-family: "FoundationIcons";
+  font-size: 1.375em;
+  color: #d9d6d3;
+}
+/* line 163, ../sass/styles.scss */
+.content .service-list .service a {
+  font-weight: bold;
+  color: #473016;
+}
+/* line 167, ../sass/styles.scss */
+.content .service-list .service h4 {
+  padding-bottom: 1.25em;
+  border-bottom: 0.1875em solid #d9d6d3;
+}
+/* line 173, ../sass/styles.scss */
+.content .service-list .row:nth-child(1) .service:nth-child(1):before {
+  content: "\f021";
+}
+/* line 176, ../sass/styles.scss */
+.content .service-list .row:nth-child(1) .service:nth-child(2):before {
+  content: "\f022";
+}
+/* line 181, ../sass/styles.scss */
+.content .service-list .row:nth-child(2) .service:nth-child(1):before {
+  content: "\f026";
+}
+/* line 184, ../sass/styles.scss */
+.content .service-list .row:nth-child(2) .service:nth-child(2):before {
+  content: "\f028";
+}
+/* line 189, ../sass/styles.scss */
+.content .service-list .row:nth-child(3) .service:nth-child(1):before {
+  content: "\f009";
+}
+/* line 192, ../sass/styles.scss */
+.content .service-list .row:nth-child(3) .service:nth-child(2):before {
+  content: "\f00b";
+}
+/* line 197, ../sass/styles.scss */
+.content .service-list .row:nth-child(4) .service:nth-child(1):before {
+  content: "\f00f";
+}
+/* line 200, ../sass/styles.scss */
+.content .service-list .row:nth-child(4) .service:nth-child(2):before {
+  content: "\f010";
+}
+/* line 206, ../sass/styles.scss */
+.content .compare .columns:nth-child(1) .pricing-table {
+  border: 3px solid #2a77b3;
+}
+/* line 209, ../sass/styles.scss */
+.content .compare .columns:nth-child(1) .pricing-table .title {
+  background-color: #2a77b3;
+  color: white;
+}
+/* line 213, ../sass/styles.scss */
+.content .compare .columns:nth-child(1) .pricing-table .price {
+  color: #2a77b3;
+  background-color: #91c0e5;
+  font-weight: bold;
+}
+/* line 218, ../sass/styles.scss */
+.content .compare .columns:nth-child(1) .pricing-table .cta-button {
+  background-color: #2a77b3;
+}
+/* line 221, ../sass/styles.scss */
+.content .compare .columns:nth-child(1) .pricing-table .button {
+  background-color: #2a77b3;
+}
+/* line 223, ../sass/styles.scss */
+.content .compare .columns:nth-child(1) .pricing-table .button:hover {
+  background-color: #539dd7;
+}
+/* line 228, ../sass/styles.scss */
+.content .compare .columns:nth-child(2) .pricing-table {
+  border: 3px solid #95be60;
+}
+/* line 231, ../sass/styles.scss */
+.content .compare .columns:nth-child(2) .pricing-table .title {
+  background-color: #95be60;
+  color: white;
+}
+/* line 235, ../sass/styles.scss */
+.content .compare .columns:nth-child(2) .pricing-table .price {
+  color: #95be60;
+  background-color: #ddeacd;
+  font-weight: bold;
+}
+/* line 240, ../sass/styles.scss */
+.content .compare .columns:nth-child(2) .pricing-table .cta-button {
+  background-color: #95be60;
+}
+/* line 243, ../sass/styles.scss */
+.content .compare .columns:nth-child(2) .pricing-table .button {
+  background-color: #95be60;
+}
+/* line 245, ../sass/styles.scss */
+.content .compare .columns:nth-child(2) .pricing-table .button:hover {
+  background-color: #b9d496;
+}
+/* line 250, ../sass/styles.scss */
+.content .compare .columns:nth-child(3) .pricing-table {
+  border: 3px solid #f2c265;
+}
+/* line 253, ../sass/styles.scss */
+.content .compare .columns:nth-child(3) .pricing-table .title {
+  background-color: #f2c265;
+  color: white;
+}
+/* line 257, ../sass/styles.scss */
+.content .compare .columns:nth-child(3) .pricing-table .price {
+  color: #f2c265;
+  background-color: #fefaf2;
+  font-weight: bold;
+}
+/* line 262, ../sass/styles.scss */
+.content .compare .columns:nth-child(3) .pricing-table .cta-button {
+  background-color: #f2c265;
+}
+/* line 265, ../sass/styles.scss */
+.content .compare .columns:nth-child(3) .pricing-table .button {
+  background-color: #f2c265;
+}
+/* line 267, ../sass/styles.scss */
+.content .compare .columns:nth-child(3) .pricing-table .button:hover {
+  background-color: #f8deac;
+}
+/* line 280, ../sass/styles.scss */
+.content .call-us {
+  margin-top: 10px;
+}
+/* line 282, ../sass/styles.scss */
+.content .call-us li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 286, ../sass/styles.scss */
+.content .call-us li:before {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: -30px;
+  top: -5px;
+  font-family: "FoundationIcons";
+  font-size: 1.5em;
+  color: #d9d6d3;
+}
+/* line 297, ../sass/styles.scss */
+.content .call-us .phone:before {
+  content: "\f011";
+}
+/* line 300, ../sass/styles.scss */
+.content .call-us .email:before {
+  content: "\f007";
+}
+
+/* line 306, ../sass/styles.scss */
+.footer {
+  margin-top: 1.5625em;
+}
+/* line 308, ../sass/styles.scss */
+.footer a {
+  color: #473016;
+}
+/* line 312, ../sass/styles.scss */
+.footer .footnav ul {
+  margin: 0.3125em 0 0 0;
+}
+/* line 315, ../sass/styles.scss */
+.footer .footnav li {
+  margin-left: 0;
+  margin-right: 0.9375em;
+}
+/* line 320, ../sass/styles.scss */
+.footer .footnav a:hover {
+  text-decoration: underline;
+}
+/* line 328, ../sass/styles.scss */
+.footer .social ul {
+  float: right;
+}
+/* line 332, ../sass/styles.scss */
+.footer .social li a {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  /*   CSS image replacement  */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* line 341, ../sass/styles.scss */
+.footer .social li.facebook a {
+  background-position: 0 -224px;
+}
+/* line 343, ../sass/styles.scss */
+.footer .social li.facebook a:hover {
+  background-position: 0 -192px;
+}
+/* line 347, ../sass/styles.scss */
+.footer .social li.twitter a {
+  background-position: 0 -160px;
+}
+/* line 349, ../sass/styles.scss */
+.footer .social li.twitter a:hover {
+  background-position: 0 -128px;
+}
+/* line 353, ../sass/styles.scss */
+.footer .social li.linkedin a {
+  background-position: 0 -64px;
+}
+/* line 355, ../sass/styles.scss */
+.footer .social li.linkedin a:hover {
+  background-position: 0 -96px;
+}
+/* line 359, ../sass/styles.scss */
+.footer .social li.dribble a {
+  background-position: 0 -32px;
+}
+/* line 361, ../sass/styles.scss */
+.footer .social li.dribble a:hover {
+  background-position: 0 0;
+}
+
+@media only screen and (max-width: 48em) {
+  /* line 371, ../sass/styles.scss */
+  .footer {
+    text-align: center;
+  }
+  /* line 373, ../sass/styles.scss */
+  .footer .footnav, .footer .social {
+    margin-bottom: 20px;
+  }
+  /* line 375, ../sass/styles.scss */
+  .footer .footnav ul, .footer .social ul {
+    float: none;
+  }
+  /* line 378, ../sass/styles.scss */
+  .footer .footnav li, .footer .social li {
+    display: inline-block;
+    float: none;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

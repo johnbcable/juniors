@@ -1,0 +1,19 @@
+            <h3>Upcoming events</h3>
+            <table width="100%">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Start<br />Time</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+           {{#each allEvents}}
+                <tr>
+                  <td>{{dateofevent}}</td>
+                  <td>{{eventtime}}</td>
+                  <td>{{eventnote}}</td>
+                </tr>
+            {{/each}}
+              </tbody>
+            </table>

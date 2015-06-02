@@ -1,0 +1,268 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hampton-in-Arden Tennis Club - Juniors - </title>
+    <link rel="stylesheet" href="bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<!--
+<nav class="top-bar" data-options"is_hover: false">
+-->
+<!--
+<div class="contain-to-grid">
+-->
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <a href="index.html"><a href="http://hamptontennis.org.uk"><img src="./img/small_logo.gif" /></a></a><br />
+        <!-- <h1><a href="#">Hampton-in-Arden Tennis Club </a></h1>   -->
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="coaching.html">Coaching</a></li>
+        <li><a href="socialtennis.html">Social Tennis</a>
+        <li><a href="compete.html">Compete</a>
+        <li><a href="holidaycamps.html">Holiday Clubs</a></li>
+        <li><a href="search.html">Search &raquo;</a></li>
+      </ul>
+    </section>
+
+  </nav>
+<!--
+</div>
+-->
+
+  <!-- Header -->
+ <header class="myhead">
+  <div class ="row">
+    <div class="large-12 medium-12 small-12 columns">
+      <img name="MiniTennisImageMap" src="img/MiniTennisImageMap.jpg" width="980" height="296" id="MiniTennisImageMap" usemap="#m_MiniTennisImageMap" alt="" />
+      <map name="m_MiniTennisImageMap" id="m_MiniTennisImageMap">
+        <area shape="poly" coords="788,11,729,139,736,288,972,287,973,6,788,11" href="minigreen.html" title="More information about Mini-Tennis Green" alt="More information about Mini-Tennis Green" />
+        <area shape="poly" coords="493,10,497,287,669,285,729,108,719,7,493,10" href="miniorange.html" title="More information about Mini-Tennis Orange" alt="More information about Mini-Tennis Orange" />
+        <area shape="poly" coords="245,90,254,287,481,286,476,10,333,12,245,90" href="minired.html" title="More information about Mini-Tennis Red" alt="More information about Mini-Tennis Red" />
+        <area shape="poly" coords="9,19,10,289,233,291,240,18,168,6,9,19" href="minitots.html" title="More information on Mini-Tots" alt="More information on Mini-Tots" />
+      </map>     
+        <!-- <img src="./img/MiniTennisHeader.jpg" />   -->
+    </div>
+  </div>
+ </header>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h2>Mini-Tennis at Hampton in Arden Tennis Club</h2>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-8 medium-12 small-12 columns">
+      <p>
+        Mini-Tennis is an initiative from the Lawn Tennis Association (LTA). Children between 3 and 10 years old can now get stuck into the world of tennis with an exciting programme from the LTA to develop young talent in appropriate learning environments.
+      </p>
+      <p>
+        With smaller courts, nets and rackets and lower bouncing balls, LTA Mini Tennis offers the perfect introduction to the sport, with all the fun and energy of the real thing.
+      </p>
+      <p>
+        There are four stages of LTA Mini Tennis; Tots, Red, Orange and Green, each with their own court size and type of ball. This tailored approach enables players to develop vital skills and techniques at an early age.
+      </p>
+<!--
+      <p class="panel">
+        There is also the LTA Mini Tennis Rally Awards scheme, designed to help mini players learn in stages and take part in exciting exercises with regular rewards which encourage them to develop their tennis skills at a pace that suits them.
+        <br />
+        <a href="rallyawards.html">Read more &raquo;</a>
+      </p>
+-->
+    </div>
+
+    <div id="coachlist" class="large-4 medium-4 small-12 coachlist columns">
+    <h4>Contact a Coach</h4>
+    <script id="coachlist-template" type="x-handlebars-template">
+    <ul>
+        {{#each allCoaches}}
+        <li>
+          <a href="{{url}}">{{forename1}} {{surname}}</a>
+          <p class="mobile">mobile: {{mobilephone}}</p>
+        </li>
+        {{/each}}
+    </ul>
+
+    <hr />
+      
+    <a href="coaching_schedule.html" class="large button">Coaching Schedule</a><br />
+    <a href="paying.html" class="large button">Paying for Coaching</a>
+
+    </script>
+
+    </div>    <!--    /coachlist    -->
+
+  </div>    <!--    /row    -->
+
+  <div class="row">
+
+    <h3>The Stages of Mini-Tennis</h3>
+
+    <div class="large-3 medium-3 small-12 columns">
+      <div class="row">
+        <div class="large-4 medium-4 small-6 columns">
+          <img src="./img/totsavatar.jpg" />
+        </div>
+        <div class="large-8 medium-8 small-6 columns">
+          <h4><a href="minitots.html" class="minitots">Mini-Tennis Tots</a></h4>
+          <p>Ages 3-5 years old</p>
+          <a href="minitots.html" class="small button">Read More &raquo;</a>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="large-3 medium-3 small-12 columns">
+      <div class="row">
+        <div class="large-4 medium-4 small-6 columns">
+          <img src="./img/redavatar.jpg" />
+        </div>
+        <div class="large-8 medium-8 small-6 columns">
+          <h4><a href="minired.html" class="minired">Mini-Tennis Red</a></h4>
+          <p>Ages 5-8 years old</p>
+          <a href="minired.html" class="small button">Read More &raquo;</a>
+         </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="large-3 medium-3 small-12 columns">
+      <div class="row">
+        <div class="large-4 medium-4 small-6 columns">
+          <img src="./img/orangeavatar.jpg" />
+        </div>
+        <div class="large-8 medium-8 small-6 columns">
+          <h4><a href="miniorange.html" class="miniorange">Mini-Tennis Orange</a></h4>
+          <p>Ages 8-9 years old</p>
+          <a href="miniorange.html" class="small button">Read More &raquo;</a>
+        </div>
+      </div>
+      <hr />
+    </div>
+
+    <div class="large-3 medium-3 small-12 columns">
+      <div class="row">
+        <div class="large-4 medium-4 small-6 columns">
+          <img src="./img/greenavatar.jpg" />
+        </div>
+        <div class="large-8 medium-8 small-6 columns">
+          <h4><a href="minigreen.html" class="minigreen">Mini-Tennis Green</a></h4>
+          <p>Age 10 years old</p>
+          <a href="minigreen.html" class="small button">Read More &raquo;</a>
+         </div>
+      </div>
+      <hr />
+    </div>
+
+  </div>
+
+  <!--   Define the footer area  -->
+  
+  <!-- First row contains big footer menu and social mdeia stuff -->
+
+  <footer class="footer" role="contentinfo">
+
+    <div class="row toprow">
+        <div class="large-9 bigfooter columns">
+          <div class="row">
+            <div class="large-3 medium-3 small-12 clublogo columns">
+                <p class="footermenuhead"><a href="index.html">Home</a></p>
+                <a href="http://hamptontennis.org.uk"><img src="./img/logo.gif" /></a>
+                <br />
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Services</p>
+                <ul>
+                  <li><a href="contact.html" title="">Contact Us</a></li>
+                  <li><a href="coaching.html" title="">Coaching</a></li>
+                  <li><a href="holidaycamps.html" title="">Holiday Clubs</a></li>
+                  <li><a href="socialtennis.html" title="">Social Tennis</a></li>
+                  <li><a href="compete.html" title="">Competing</a></li><li><a href="faqs.html" title="">FAQ&apos;s</a></li>
+                </ul>
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaching</p>
+                <ul>
+                  <li><a href="coaching.html">Overview</a></li>
+                  <li><a href="junior_coaching.html">Junior Groups</a></li>
+                  <li><a href="one-to-one.html">One-to-One</a></li>
+                  <li><a href="adult_coaching.html">Adults</a></li>
+                  <li><a href="paying.html">Coaching Fees</a></li>
+                  <li><a href="coaching_schedule.html">Schedule</a></li>
+                  <li><a href="minitennis.html">Mini-Tennis</a></li>
+                  
+                </ul>
+
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaches</p>
+                 <ul>
+                  <li><a href="ianpoole.html" title="Head Coach - Ian Poole">Ian Poole</a></li>
+                  <li><a href="sampeace.html" title="Performance Coach - Sam Peace">Sam Peace</a></li>
+                  <li><a href="belkacemchefri.html" title="Coach - Belkacem Chefri">Bel Chefri</a></li>
+                  
+                  
+                  
+                  <li><a href="zachjones.html" title="Coach - Zach Jones">Zach Jones</a></li><li><a href="samhiskett.html" title="Coach - Sam Hiskett">Sam Hiskett</a></li>
+               </ul>
+            </div>
+          </div>
+      </div>
+        <div class="large-3 medium-3 social hide-for-small columns">
+          <div class="row">
+            <div class="large-12 columns">
+              <h3 class"footermenuhead">Stay in Touch</h3>
+              <ul class="inline-list">
+                <li class="facebook"><a href="http://facebook.com/hamptontennis" title="Facebook"></a></li>
+                <li class="twitter"><a href="http://twitter.com/hamptontennis" title="Twitter"></a></li>
+                <li class="wordpress"><a href="http://hamptontennis.wordpress.com" title="Wordpress"></a></li>
+                <li class="flickr"><a href="http://www.flickr.com/photos/103781054@N07/" title="Flickr"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Second row - with copyright info etc -->
+    <div class="row bottomrow hide-for-small">
+      <div class="large-4 columns">
+        <p>Hampton-in-Arden Tennis Club</p>
+      </div>
+      <div class="large-4 columns">
+          &nbsp;
+      </div>
+      <div class="large-4 columns">
+          <p>&copy; JC 2013. All rights reserved</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!--  end of footer definition  -->
+
+
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/coachlist.js"></script>
+
+  </body>
+</html>

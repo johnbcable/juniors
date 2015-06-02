@@ -1,0 +1,388 @@
+@import "config";
+@import "compass/css3";
+@import "social/*.png"; 
+
+@include font-face("ChunkFive", font-files("Chunkfive-webfont.ttf", "Chunkfive-webfont.otf", "Chunkfive-webfont.woff"), "Chunkfive-webfont.eot", normal);
+@include font-face("OpenSans", font-files("OpenSans-Regular-webfont.ttf", "OpenSans-Regular-webfont.otf", "OpenSans-Regular-webfont.woff"), "OpenSans-Regular-webfont.eot", normal);
+@include font-face("FoundationIcons", font-files("foundation-icons.ttf", "foundation-icons.otf", "foundation-icons.woff"), "foundation-icons.eot", normal);
+
+.top-bar {
+	.name h1 {
+		font-family: $logo-font-family;
+		text-transform: uppercase;
+	}
+}
+
+// remove the button border and shadow
+.button {
+	border: 0;
+	@include box-shadow(0 0 0 rgba($white, 0) inset);
+}
+
+/*   content general  */
+
+.content {
+	margin-top: emCalc(30px);
+	background-color: $white;
+	.intro {
+		padding: emCalc(20px) 0;
+		background-color: $secondary-color;
+		color: $white;
+		margin-bottom: emCalc(20px);
+		.button {
+			margin-top: emCalc(20px);
+			background-color: $success-color;
+			width: 100%;
+			&:hover {
+				background-color: lighten($success-color, 10%);
+			}
+		}
+	}
+
+	/*     slideshow    */
+	.orbit-container {
+		@include background(radial-gradient(lighten($body-bg, 6%), darken($body-bg, 3%)));
+		li {
+			padding: emCalc(20px) emcalc(40px);
+			&:nth-child(1) {
+				background: image-url('desktop.png') no-repeat left bottom;
+			}
+			&:nth-child(2) {
+				background: image-url('editor.png') no-repeat left bottom;
+			}
+			&:nth-child(3) {
+				background: image-url('macbook.png') no-repeat left bottom;
+			}
+			&:nth-child(4) {
+				background: image-url('panel.png') no-repeat left bottom;
+			}
+		}
+		a.orbit-prev, a.orbit-next {
+			@include opacity(0);
+			@include single-transition(opacity, 400ms);
+		}
+		&:hover {
+			a.orbit-prev, a.orbit-next {
+				@include opacity(1);
+			}
+		}a
+		h3 {
+			padding: emCalc(20px);
+			background-color: rgba($white, .3);
+			+ p {
+				padding: emCalc(20px);
+				background-color: rgba($white, .5);
+				position: relative;
+				bottom: emCalc(20px);
+			}
+		}
+	}
+
+	.title-section {
+		margin-bottom: emCalc(14px);
+		padding-bottom: emCalc(14px);
+		border-bottom: emCalc(3px) solid $light-grey;
+	}
+	.title-section-secondary {
+		margin-bottom: emCalc(14px);
+		padding-bottom: emCalc(14px);
+		border-bottom: emCalc(3px) solid lighten($body-font-color, 50%);
+	}
+
+	.home {
+		padding-bottom: emCalc(25px);
+		.feature {
+			h4 {
+				padding-left: emClc(20px);
+				position: relative;
+				@extend .title-section-secondary;
+			}
+			h4:before {
+				content: "";
+				display: inline-block;
+				padding: emCalc(5px) 0;
+				width: emCalc(28px);
+				height: emCalc(28px);
+				position: absolute;
+				left: 0;
+				bottom: emCalc(5px);
+				font-family: $icon-font-family;
+				font-size: emCalc(22px);
+			}
+			/*  now put the icons in  */
+			&:nth-of-type(1) h4:before {
+				content:"\f000";
+			}
+			&:nth-of-type(2) h4:before {
+				content:"\f00a";
+			}
+			&:nth-of-type(3) h4:before {
+				content:"\f00e";
+			}
+			&:nth-of-type(4) h4:before {
+				content:"\f01e";
+			}
+
+		}
+	}
+
+	.page {
+		padding: {
+			top: emCalc(25px);
+			bottom: emCalc(25px);
+		}
+		.panel {
+			p:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		color: $dark-grey;
+		margin: {
+			top: emCalc(25px);
+			bottom: 0;
+		}
+		.button {
+			width: 100%;
+		}
+	}
+	.service-list {
+		.service {
+			position: relative;
+			padding-left: emCalc(150px);
+			&:before {
+				content: "";
+				display: inline-block;
+				padding: emCalc(5px);
+				position: absolute;
+				left: emCalc(-2px);
+				top: emCalc(-2px);
+				font-family: $icon-font-family;
+				font-size: emCalc(22px);
+				color: lighten($secondary-color, 10%);
+			}
+			a {
+				font-weight: bold;
+				color: $body-font-color;
+			}
+			h4 {
+				padding-bottom: emCalc(20px);
+				border-bottom: emCalc(3px) solid lighten($secondary-color, 10%);
+			}
+		}
+		.row:nth-child(1) {
+			.service:nth-child(1):before {
+				content: "\f021";
+			}
+			.service:nth-child(2):before {
+				content: "\f022";
+			}
+		}
+		.row:nth-child(2) {
+			.service:nth-child(1):before {
+				content: "\f026";
+			}
+			.service:nth-child(2):before {
+				content: "\f028";
+			}
+		}
+		.row:nth-child(3) {
+			.service:nth-child(1):before {
+				content: "\f009";
+			}
+			.service:nth-child(2):before {
+				content: "\f00b";
+			}
+		}
+		.row:nth-child(4) {
+			.service:nth-child(1):before {
+				content: "\f00f";
+			}
+			.service:nth-child(2):before {
+				content: "\f010";
+			}
+		}
+	}
+	.compare {
+		.columns:nth-child(1) .pricing-table {
+			$table-color: #2a77b3;
+			border: 3px solid $table-color;
+			.title {
+				background-color: $table-color;
+				color: $white;
+			}
+			.price {
+				color: $table-color;
+				background-color: lighten($table-color, 30%);
+				font-weight: bold;
+			}
+			.cta-button {
+				background-color: $table-color;
+			}
+			.button {
+				background-color: $table-color;
+				&:hover {
+					background-color:lighten($table-color, 15%);
+				}
+			}
+		}
+		.columns:nth-child(2) .pricing-table {
+			$table-color: #95be60;
+			border: 3px solid $table-color;
+			.title {
+				background-color: $table-color;
+				color: $white;
+			}
+			.price {
+				color: $table-color;
+				background-color: lighten($table-color, 30%);
+				font-weight: bold;
+			}
+			.cta-button {
+				background-color: $table-color;
+			}
+			.button {
+				background-color: $table-color;
+				&:hover {
+					background-color:lighten($table-color, 15%);
+				}
+			}
+		}
+		.columns:nth-child(3) .pricing-table {
+			$table-color: #f2c265;
+			border: 3px solid $table-color;
+			.title {
+				background-color: $table-color;
+				color: $white;
+			}
+			.price {
+				color: $table-color;
+				background-color: lighten($table-color, 30%);
+				font-weight: bold;
+			}
+			.cta-button {
+				background-color: $table-color;
+			}
+			.button {
+				background-color: $table-color;
+				&:hover {
+					background-color:lighten($table-color, 15%);
+				}
+			}
+		}
+	}
+	.about {
+		.story > columns {
+			> .row h4 {
+				@extend .title-section-secondary;
+			}
+		}
+	}
+	.call-us {
+		margin-top: 10px;
+		li {
+			list-style: none;
+			position: relative;
+			margin-bottom: 10px;
+			&:before {
+				position: absolute;
+				width: 18px;
+				height: 18px;
+				left: -30px;
+				top: -5px;
+				font-family: $icon-font-family;
+				font-size: 1.5em;
+				color: lighten($secondary-color, 10%);
+			}
+		}
+		.phone:before {
+			content: "\f011";
+		}
+		.email:before {
+			content: "\f007";
+		}
+	}
+}
+
+.footer {
+	margin-top: emCalc(25px);
+	a {
+		color: $body-font-color;
+	}
+	.footnav {
+		ul {
+			margin: emCalc(5px) 0 0 0;
+		}
+		li {
+			margin-left: 0;
+			margin-right: emCalc(15px);
+		}
+		a {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	.social {
+		$height: social-sprite-height(facebook);
+		$width: social-sprite-width(facebook);
+		ul {
+			float: right;
+		}
+		li {
+			a {
+				display: inline-block;
+				height: $height;
+				width: $width;
+				/*   CSS image replacement  */
+				text-indent: 100%;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+			&.facebook a {
+				@include social-sprite(facebook);
+				&:hover {
+					@include social-sprite(facebook-hover);
+				}
+			}
+			&.twitter a {
+				@include social-sprite(twitter);
+				&:hover {
+					@include social-sprite(twitter-hover);
+				}
+			}
+			&.linkedin a {
+				@include social-sprite(linkedin);
+				&:hover {
+					@include social-sprite(linkedin-hover);
+				}
+			}
+			&.dribble a {
+				@include social-sprite(dribble);
+				&:hover {
+					@include social-sprite(dribble-hover);
+				}
+			}
+		}
+	}
+}
+
+// media queries
+@media only screen and (max-width: 48em) {
+	.footer {
+		text-align: center;
+		.footnav, .social {
+			margin-bottom: 20px;
+			ul {
+				float: none;
+			}
+			li {
+				display: inline-block;
+				float: none;
+				margin: {
+					left: 10px;
+					right: 10px;
+				}
+			}
+		}
+	}
+}

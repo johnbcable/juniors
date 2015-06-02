@@ -1,0 +1,333 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hampton-in-Arden Tennis Club - Juniors - </title>
+    <link rel="stylesheet" href="bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<!--
+<nav class="top-bar" data-options"is_hover: false">
+-->
+<!--
+<div class="contain-to-grid">
+-->
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <a href="http://hamptontennis.org.uk"><img src="./img/small_logo.gif" /></a><br />
+        <!-- <h1><a href="#">Hampton-in-Arden Tennis Club </a></h1>   -->
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="coaching.html">Coaching</a></li>
+        <li><a href="socialtennis.html">Social Tennis</a>
+        <li><a href="compete.html">Compete</a>
+        <li><a href="holidaycamps.html">Holiday Clubs</a></li>
+        <li><a href="search.html">Search &raquo;</a></li>
+      </ul>
+    </section>
+
+  </nav>
+
+<!--
+</div>
+-->
+
+ <header class="myhead hide-for-small contain-to-grid">
+  <div class ="row">
+    <div class="mainbanner large-12 medium-12 columns">
+        <img src="./img/CompeteBanner.jpg" />
+        <h2>Juniors at Hampton in Arden Tennis Club</h2>
+    </div>
+  </div>
+ </header>
+
+  <!-- Now, page split up into large content area and RHS sidebar   -->
+
+  <div class="row content">
+
+    <div class="large-8 medium-12 small-12 content columns">
+
+      <div class="row">
+        <div class="large-6 medium-6 small-12 columns summary">
+          <h4><a href="coaching.html">Coaching</a></h4>
+          <img src="./img/ianpoole.jpg">
+          <p>
+            Details of our comprehensive coaching programme
+          </p>
+          <a href="coaching.html" class="small button">More &raquo;</a>
+        </div>
+        <div class="large-6 medium-6 small-12 columns summary">
+          <h4><a href="compete.html">Competing</a></h4>
+          <img src="./img/compete1.jpg">
+          <p>
+            Competitive tennis opportuntities for juniors here at Hampton-in-Arden Tennis Club
+          </p>
+          <a href="compete.html" class="small button">More &raquo;</a>
+        </div>
+        <hr />
+      </div>    <!-- end of features row -->
+
+      <div class="row">
+        <div class="large-6 medium-6 small-12 columns summary">
+          <h4><a href="socialtennis.html">Social Tennis</a></h4>
+          <img src="http://placehold.it/320x240.jpg&text=Mini+picture+for+Social+Tennis">
+          <p>
+            Come and join in our active social tennis side
+          </p>
+          <a href="socialtennis.html" class="small button">More &raquo;</a>
+        </div>
+        <div class="large-6 medium-6 small-12 columns summary">
+          <h4><a href="holidaycamps.html">Holiday Clubs</a></h4>
+          <img src="./img/tenniscamp1.gif">
+          <p>
+            School-holiday coaching provisions
+          </p>
+          <a href="holidaycamps.html" class="small button">More &raquo;</a>
+        </div>
+        <hr />
+      </div>    <!-- end of features row -->
+
+
+      <div class="row">
+
+        <div id="events" class="large-12 medium-12 small-12 columns">
+            <h3>Upcoming events</h3>
+            <script id="eventlist-template" type="x-handlebars-template">
+            <table width="100%">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Start<br />Time</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+           {{#each allEvents}}
+                <tr>
+                  <td>{{dateofevent}}</td>
+                  <td>{{eventtime}}</td>
+                  <td>{{eventnote}}</td>
+                </tr>
+            {{/each}}
+              </tbody>
+            </table>
+      </script>   
+
+        </div>
+        <hr />
+        <!--
+        <div id="receivedjson"  class="large-12 medium-12 small-12 panel columns" style="border: 1px solid black;"></div>
+        -->
+        
+      </div>  <!-- end row inside main content area -->
+          
+    </div>     <!--   end of main content area   -->
+
+    <!-- Now for the sidebar area -->
+
+    <div class="large-4 medium-12 small-12 sidebar columns">
+
+      <div class="row bookingthings">
+        <p>
+          <a class="button" href="https://www.ebookingonline.net/box/box3.php?id=29">Book a Tennis Court</a>
+        </p>
+        <hr />
+      </div>  <!--   /row   -->
+
+
+<!--
+      <div class="panel">
+-->
+        <div class="row commscentre">
+
+<!--
+          <div id="tweets" class="large-12 medium-12 small-12 columns">
+
+            <img src="./img/Twitter-logo-blue-small.png" />&nbsp;&nbsp;<span class="tweeter">@hamptontennis</span>
+            <div class="tweets">
+              <div class="tweetitem">
+                <p class="tweetdate">Nov 20</p>
+                <p class="tweettext">
+                  We are planning a couple of social tournaments for December, as follows:<br />
+                  Friday 6th December 9am–11.30am Adult american doubles style. ...
+                </p>
+                <a href="http://twitter.com/hamptontennis">More &raquo;</a>
+                <hr />
+              </div>
+            </div>
+
+          </div>
+-->
+          <div id="twitter-feed" class="large-12 medium-12 small-12 columns">
+            <!--  filled in dynamically by running the JS in titterfeed.js on document.ready() below   -->
+          </div>
+
+          <div id="blogposts" class="large-12 medium-12 small-12 columns blogposts">
+            <!--  filled in dynamically by running the JS in wordpress.js on document.ready() below   -->
+            
+<!-- 
+            <img src="./img/wordpress-logo-small.png" />
+            <div class="blogtext">
+              <div class="blogitem">
+                <p class="blogpostdate">Posted on November 20, 2013</p>
+                <h5 class="blogitemtitle">We are planning a couple of social tourn</h5>
+                <p class="blogitemtext">
+                  We are planning a couple of social tournaments for December, as follows: Friday 6th December 9am-11.30am Adult american doubles style tournament Sunday 8th December 12pm-3pm Mens’ singles tournament Please contact Ian Poole on ianpoole23@yahoo.co.uk for more information or to book ...
+                </p>
+                <a href="http://hamptontennis.wordpress.com/2013/11/20/we-are-planning-a-couple-of-social-tourn/">Continue reading &raquo;</a>
+                <hr />
+              </div>
+            </div>
+-->            
+          </div>
+
+          <div class="large-12 medium-12 small-12 columns emails">
+
+
+          </div>   <!-- end of emails  -->
+
+          <div class="large-12 medium-12 small-12 columns quickmessages">
+
+
+          </div>   <!-- end of quick messages  -->
+
+        </div>     <!--   end of commscentre    -->
+
+        <div class="row weatherbutton">
+
+          <div class="large-12 medium-12 small-12 columns">
+            <a class="button" onclick='javascript: window.open("theweather.html","_weatherbox","width=320,height=480,scrollbars=yes");'>The Weather</a>
+            <!--
+            <a class="button" href="theweather.html" target="_blank">The Weather</a>
+            -->
+          </div>
+        </div>
+
+<!--
+      </div>   // end of panel
+-->
+    </div>    <!--  end of sidebar area -->
+
+  </div>    <!--   end of outer row   -->
+
+
+
+  <!--   Define the footer area  -->
+  
+  <!-- Second row contains big footer menu and social mdeia stuff -->
+
+  <footer class="footer" role="contentinfo">
+
+    <div class="row joinus">
+      <div class="large-3 medium-3 small-12 columns">
+        <a class="large fullwidth button" href="joinus.html">Join Us</a>
+      </div>
+      <div class="large-9 medium-9 small-12 columns">
+        <p>
+          There are many benefits to becoming a member of Hampton-in-Arden Tennis Club, whether you are an adult or a child. These include preferential pricing on certain activities and web access to all club communications. See what we have to offer - click Join Us now!
+        </p>
+      </div>
+    </div>
+
+    <div class="row toprow">
+        <div class="large-9 bigfooter columns">
+          <div class="row">
+            <div class="large-3 medium-3 small-12 clublogo columns">
+                <p class="footermenuhead"><a href="index.html">Home</a></p>
+                <a href="http://hamptontennis.org.uk"><img src="./img/logo.gif" /></a>
+                <br />
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Services</p>
+                <ul>
+                  <li><a href="contact.html" title="">Contact Us</a></li>
+                  <li><a href="coaching.html" title="">Coaching</a></li>
+                  <li><a href="holidaycamps.html" title="">Holiday Clubs</a></li>
+                  <li><a href="socialtennis.html" title="">Social Tennis</a></li>
+                  <li><a href="compete.html" title="">Competing</a></li><li><a href="faqs.html" title="">FAQ&apos;s</a></li>
+                </ul>
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaching</p>
+                <ul>
+                  <li><a href="coaching.html">Overview</a></li>
+                  <li><a href="junior_coaching.html">Junior Groups</a></li>
+                  <li><a href="one-to-one.html">One-to-One</a></li>
+                  <li><a href="adult_coaching.html">Adults</a></li>
+                  <li><a href="paying.html">Coaching Fees</a></li>
+                  <li><a href="coaching_schedule.html">Schedule</a></li>
+                  <li><a href="minitennis.html">Mini-Tennis</a></li>
+                  
+                </ul>
+
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaches</p>
+                 <ul>
+                  <li><a href="ianpoole.html" title="Head Coach - Ian Poole">Ian Poole</a></li>
+                  <li><a href="sampeace.html" title="Performance Coach - Sam Peace">Sam Peace</a></li>
+                  <li><a href="belkacemchefri.html" title="Coach - Belkacem Chefri">Bel Chefri</a></li>
+                  
+                  
+                  
+                  <li><a href="zachjones.html" title="Coach - Zach Jones">Zach Jones</a></li><li><a href="samhiskett.html" title="Coach - Sam Hiskett">Sam Hiskett</a></li>
+               </ul>
+            </div>
+          </div>
+      </div>
+        <div class="large-3 medium-3 social hide-for-small columns">
+          <div class="row">
+            <div class="large-12 columns">
+              <h3 class"footermenuhead">Stay in Touch</h3>
+              <ul class="inline-list">
+                <li class="facebook"><a href="http://facebook.com/hamptontennis" title="Facebook"></a></li>
+                <li class="twitter"><a href="http://twitter.com/hamptontennis" title="Twitter"></a></li>
+                <li class="wordpress"><a href="http://hamptontennis.wordpress.com" title="Wordpress"></a></li>
+                <li class="flickr"><a href="http://www.flickr.com/photos/103781054@N07/" title="Flickr"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Second row - with copyright info etc -->
+    <div class="row bottomrow hide-for-small">
+      <div class="large-4 columns">
+        <p>Hampton-in-Arden Tennis Club</p>
+      </div>
+      <div class="large-4 columns">
+          &nbsp;
+      </div>
+      <div class="large-4 columns">
+          <p>&copy; JC 2013. All rights reserved</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!--  end of footer definition  -->
+
+
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/twitterfeed.js"></script>
+    <script src="js/wordpress.js"></script>
+    <script src="js/eventlist.js"></script>
+  </body>
+</html>

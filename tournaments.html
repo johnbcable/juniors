@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hampton-in-Arden Tennis Club - Juniors - Tournaments</title>
+    <link rel="stylesheet" href="bower_components/foundation/css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/collapsible.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+
+<!--
+<nav class="top-bar" data-options"is_hover: false">
+-->
+<!--
+<div class="contain-to-grid">
+-->
+  <nav class="top-bar" role="navigation" data-topbar>
+    <ul class="title-area">
+      <!-- Title Area -->
+      <li class="name">
+        <a href="index.html"><a href="http://hamptontennis.org.uk"><img src="./img/small_logo.gif" /></a></a><br />
+        <!-- <h1><a href="#">Hampton-in-Arden Tennis Club </a></h1>   -->
+      </li>
+      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+      <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="coaching.html">Coaching</a></li>
+        <li><a href="socialtennis.html">Social Tennis</a>
+        <li class="active"><a href="compete.html">Compete</a>
+        <li><a href="holidaycamps.html">Holiday Clubs</a></li>
+        <li><a href="search.html">Search &raquo;</a></li>
+      </ul>
+    </section>
+
+  </nav>
+<!--
+</div>
+-->
+
+  <!--   Main content area       -->
+
+  <div class="row">
+
+    <div class="large-12 medium-12 small-12 columns">
+
+      <h2>Tournaments</h2>
+      <p>
+        Hampton-In-Arden Tennis Club runs several internal tournaments for all levels of junior members during each year. It is an integral part of our coaching programme to encourage more children to take part in competitions both within our club and with other clubs.
+      </p>
+
+    </div>
+
+  </div>   <!--    /row    -->
+
+  <div class="row">
+
+    <div class="large-12 medium-12 small-12 columns">
+
+      <div class="row">
+
+        <div class="large-8 medium-8 small-12 columns">
+
+          <h3>Upcoming Tournaments</h3>
+          <p>
+            Please see below for details of upcoming tournaments. If you would like to enter, or have any questions, please contact the coach named in the contact details below for each tournament.
+          </p>
+
+          <hr />
+
+        </div>
+
+        <div class="large-4 medium-4 small-12 columns">
+      
+          <a href="results.html" class="large button fullwidth">Tournament Results</a><br />
+
+        </div>
+
+      </div>    <!--    /row    -->
+
+    </div>
+
+  </div>
+
+  <div class="row">
+
+    <div class="large-12 medium-12 small-12 columns">
+
+      <div class="row">
+
+        <div class="large-8 medium-8 small-12 columns">
+
+      <div id="futuretournaments"></div>   <!-- upcoming and running tournaments -->
+
+
+      <h3>Tournaments Run Recently</h3>
+      
+      <div id="pasttournaments"></div>     <!-- completed tournaments this year -->
+
+    </div>    <!--    /large-8    -->
+
+  <!--     Coaches contact sidebar -->
+
+    <div id="coachlist" class="large-4 medium-4 small-12 coachlist columns">
+    <h4>Contact a Coach</h4>
+    <script id="coachlist-template" type="x-handlebars-template">
+    <ul>
+        {{#each allCoaches}}
+        <li>
+          <a href="{{url}}">{{forename1}} {{surname}}</a>
+          <p class="mobile">mobile: {{mobilephone}}</p>
+        </li>
+        {{/each}}
+    </ul>
+
+    <hr />
+      
+    <a href="coaching_schedule.html" class="large button">Coaching Schedule</a><br />
+    <a href="paying.html" class="large button">Paying for Coaching</a>
+
+    </script>
+
+    </div>    <!--    /coachlist    -->
+
+  </div>    <!--   /row - end of content area     -->
+
+  <!--   Define the footer area  -->
+  
+  <!-- First row contains big footer menu and social mdeia stuff -->
+
+  <footer class="footer" role="contentinfo">
+
+    <div class="row toprow">
+        <div class="large-9 bigfooter columns">
+          <div class="row">
+            <div class="large-3 medium-3 small-12 clublogo columns">
+                <p class="footermenuhead"><a href="index.html">Home</a></p>
+                <a href="http://hamptontennis.org.uk"><img src="./img/logo.gif" /></a>
+                <br />
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Services</p>
+                <ul>
+                  <li><a href="contact.html" title="">Contact Us</a></li>
+                  <li><a href="coaching.html" title="">Coaching</a></li>
+                  <li><a href="holidaycamps.html" title="">Holiday Clubs</a></li>
+                  <li><a href="socialtennis.html" title="">Social Tennis</a></li>
+                  <li><a href="compete.html" title="">Competing</a></li><li><a href="faqs.html" title="">FAQ&apos;s</a></li>
+                </ul>
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaching</p>
+                <ul>
+                  <li><a href="coaching.html">Overview</a></li>
+                  <li><a href="junior_coaching.html">Junior Groups</a></li>
+                  <li><a href="one-to-one.html">One-to-One</a></li>
+                  <li><a href="adult_coaching.html">Adults</a></li>
+                  <li><a href="paying.html">Coaching Fees</a></li>
+                  <li><a href="coaching_schedule.html">Schedule</a></li>
+                  <li><a href="minitennis.html">Mini-Tennis</a></li>
+                  
+                </ul>
+
+            </div>
+            <div class="large-3 medium-3 small-12 columns">
+                <p class="footermenuhead">Coaches</p>
+                 <ul>
+                  <li><a href="ianpoole.html" title="Head Coach - Ian Poole">Ian Poole</a></li>
+                  <li><a href="sampeace.html" title="Performance Coach - Sam Peace">Sam Peace</a></li>
+                  <li><a href="belkacemchefri.html" title="Coach - Belkacem Chefri">Bel Chefri</a></li>
+                  
+                  
+                  
+                  <li><a href="zachjones.html" title="Coach - Zach Jones">Zach Jones</a></li><li><a href="samhiskett.html" title="Coach - Sam Hiskett">Sam Hiskett</a></li>
+               </ul>
+            </div>
+          </div>
+      </div>
+        <div class="large-3 medium-3 social hide-for-small columns">
+          <div class="row">
+            <div class="large-12 columns">
+              <h3 class"footermenuhead">Stay in Touch</h3>
+              <ul class="inline-list">
+                <li class="facebook"><a href="http://facebook.com/hamptontennis" title="Facebook"></a></li>
+                <li class="twitter"><a href="http://twitter.com/hamptontennis" title="Twitter"></a></li>
+                <li class="wordpress"><a href="http://hamptontennis.wordpress.com" title="Wordpress"></a></li>
+                <li class="flickr"><a href="http://www.flickr.com/photos/103781054@N07/" title="Flickr"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Second row - with copyright info etc -->
+    <div class="row bottomrow hide-for-small">
+      <div class="large-4 columns">
+        <p>Hampton-in-Arden Tennis Club</p>
+      </div>
+      <div class="large-4 columns">
+          &nbsp;
+      </div>
+      <div class="large-4 columns">
+          <p>&copy; JC 2013. All rights reserved</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!--  end of footer definition  -->
+
+  <!--    Handlebars template definitions    -->
+
+
+      <script id="futuretourlist-template" type="x-handlebars-template">
+      {{#each futureTournaments}}
+      <div class="row tournament panel">
+
+        <div class="large-12 medium-12 small-12 columns">
+          <h6>{{tourtitle}}</h6>
+          <p class="tournamentwhen">{{startdate}} at {{sortablestarttime}}</p>
+          {{#if tourfinalsday}}
+          <p class="tourfinalsfday">
+            Finals Day:  {{tourfinalsday}} from {{sortablefinalsstarttime}} to {{sortablefinalsendtime}}
+          </p>
+          {{/if}}
+          <p class="tournamentinclusion">
+            {{tourwho}}
+          </p>
+            {{#if tourblurb}}
+            <p class="tourblurb">
+              {{tourblurb}}
+            </p>
+            {{/if}}
+         <p class="tournamentfee">
+            {{tourcost}}
+          </p>
+          {{#if toururl}}
+          <p class="tournamentflyer">
+            <a href="../documents/{{toururl}}">More information &raquo;</a>
+          </p>
+          {{/if}}
+          <hr />
+          <p class="tournamentcontact">
+            {{tourcontact}}</a>
+          </p>
+        </div>
+
+      </div>
+      <hr />
+      {{/each}}
+      </script>
+
+
+      <script id="pasttourlist-template" type="x-handlebars-template">
+<!--
+        <p>
+          <a href="#" id="closeAll" title="Close All">Close All</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" id="openAll" title="Open All">Open All</a><br />
+        </p>
+ 
+-->
+        {{#each pastTournaments}}
+        <div class="collapsible">{{tourtitle}}<span></span></div>
+          <div class="collapsible-container">
+            <p class="tournamentwhen">Start: {{startdate}} at {{sortablestarttime}}</p>
+            {{#if tourfinalsday}}
+            <p class="tourfinalsfday">
+              Finals Day:  {{tourfinalsday}} from {{sortablefinalsstarttime}} to {{sortablefinalsendtime}}
+            </p>
+            {{/if}}
+            <p class="tournamentinclusion">
+              {{tourwho}}
+            </p>
+            {{#if tourblurb}}
+            <p class="tourblurb">
+              {{tourblurb}}
+            </p>
+            {{/if}}
+             <p class="tournamentfee">
+                {{tourcost}}
+              </p>
+              {{#if toururl}}
+              <p class="tournamentflyer">
+                <a href="../documents/{{toururl}}">More information &raquo;</a>
+              </p>
+              {{/if}}
+              <hr />
+              <p class="tournamentcontact">
+                {{tourcontact}}</a>
+              </p>
+          </div> <!--   end of class collapsible-container div     -->
+
+        {{/each}}
+<!--
+        <p>
+          <a href="#" id="closeAll2" title="Close All">Close All</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" id="openAll2" title="Open All">Open All</a><br />
+        </p>
+
+-->
+        </script>
+  <!--    end of Handlebars template definitions    -->
+
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/jquery.collapsible.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/coachlist.js"></script>
+    <script src="js/tournaments.js"></script>
+  </body>
+</html>

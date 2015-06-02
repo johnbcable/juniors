@@ -1,0 +1,841 @@
+/* line 98, social/*.png */
+.social-sprite, .social li.facebook a, .social li.facebook a:hover, .social li.twitter a, .social li.twitter a:hover, .social li.wordpress a, .social li.wordpress a:hover, .social li.flickr a, .social li.flickr a:hover {
+  background: url('../img/social.png') no-repeat;
+}
+
+@font-face {
+  font-family: "GeneralFoundicons";
+  src: url('fonts/general_foundicons.eot');
+  src: url('fonts/general_foundicons.eot?#iefix') format('eot'), url('fonts/general_foundicons.ttf') format('truetype'), url('fonts/general_foundicons.otf') format('opentype'), url('fonts/general_foundicons.woff') format('woff');
+  font-weight: normal;
+}
+
+/* global foundicon styles */
+/* line 31, ../scss/styles.scss */
+[class*="foundicon-"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+/* line 41, ../scss/styles.scss */
+[class*="foundicon-"]:before {
+  font-family: GeneralFoundicons;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+/* line 16, ../scss/styles.scss */
+.foundicon-settings:before {
+  content: "\f000";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-heart:before {
+  content: "\f001";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-star:before {
+  content: "\f002";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-plus:before {
+  content: "\f003";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-minus:before {
+  content: "\f004";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-checkmark:before {
+  content: "\f005";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-remove:before {
+  content: "\f006";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-mail:before {
+  content: "\f007";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-calendar:before {
+  content: "\f008";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-page:before {
+  content: "\f009";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-tools:before {
+  content: "\f00a";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-globe:before {
+  content: "\f00b";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-home:before {
+  content: "\f00c";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-quote:before {
+  content: "\f00d";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-people:before {
+  content: "\f00e";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-monitor:before {
+  content: "\f00f";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-laptop:before {
+  content: "\f010";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-phone:before {
+  content: "\f011";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-cloud:before {
+  content: "\f012";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-error:before {
+  content: "\f013";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-right-arrow:before {
+  content: "\f014";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-left-arrow:before {
+  content: "\f015";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-up-arrow:before {
+  content: "\f016";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-down-arrow:before {
+  content: "\f017";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-trash:before {
+  content: "\f018";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-add-doc:before {
+  content: "\f019";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-edit:before {
+  content: "\f01a";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-lock:before {
+  content: "\f01b";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-unlock:before {
+  content: "\f01c";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-refresh:before {
+  content: "\f01d";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-paper-clip:before {
+  content: "\f01e";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-video:before {
+  content: "\f01f";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-photo:before {
+  content: "\f020";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-graph:before {
+  content: "\f021";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-idea:before {
+  content: "\f022";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-mic:before {
+  content: "\f023";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-cart:before {
+  content: "\f024";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-address-book:before {
+  content: "\f025";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-compass:before {
+  content: "\f026";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-flag:before {
+  content: "\f027";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-location:before {
+  content: "\f028";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-clock:before {
+  content: "\f029";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-folder:before {
+  content: "\f02a";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-inbox:before {
+  content: "\f02b";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-website:before {
+  content: "\f02c";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-smiley:before {
+  content: "\f02d";
+}
+
+/* line 16, ../scss/styles.scss */
+.foundicon-search:before {
+  content: "\f02e";
+}
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url('fonts/MyriadPro_Regular.eot');
+  src: url('fonts/MyriadPro_Regular.eot?#iefix') format('eot'), url('fonts/MyriadPro_Regular.ttf') format('truetype'), url('fonts/MyriadPro_Regular.otf') format('opentype'), url('fonts/MyriadPro_Regular.woff') format('woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NeoSansProBold";
+  src: url('fonts/Neo-Sans-Pro-Bold.eot');
+  src: url('fonts/Neo-Sans-Pro-Bold.eot?#iefix') format('eot'), url('fonts/Neo-Sans-Pro-Bold.ttf') format('truetype'), url('fonts/Neo-Sans-Pro-Bold.otf') format('opentype'), url('fonts/Neo-Sans-Pro-Bold.woff') format('woff');
+  font-weight: normal;
+}
+
+/* line 102, ../scss/styles.scss */
+img {
+  margin-bottom: 1.25em;
+}
+
+/* line 108, ../scss/styles.scss */
+.top-bar .title-area img {
+  position: relative;
+  top: 0.3125em;
+  left: 0.625em;
+  overflow: auto;
+  margin-bottom: 0.625em;
+}
+/* line 117, ../scss/styles.scss */
+.top-bar .name
+h1 {
+  font-family: "NeoSansProBold", "OpenSans", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.875em;
+}
+
+/* line 125, ../scss/styles.scss */
+header .mainbanner {
+  position: relative;
+  width: 100%;
+}
+/* line 128, ../scss/styles.scss */
+header .mainbanner h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: "NeoSansProBold", "OpenSans", Arial, sans-serif;
+  color: white;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding-left: 30px;
+  margin: 0;
+  overflow: hidden;
+}
+
+/*  Colours for junior coaching bands */
+/* line 147, ../scss/styles.scss */
+.minired {
+  color: #ed1c24;
+}
+
+/* line 150, ../scss/styles.scss */
+.miniorange {
+  color: #f7941d;
+}
+
+/* line 153, ../scss/styles.scss */
+.minigreen {
+  color: #bfd730;
+}
+
+/* line 156, ../scss/styles.scss */
+.minipink, .minitots {
+  color: #FF33CC;
+}
+
+/* line 159, ../scss/styles.scss */
+.under12 {
+  color: #6600CC;
+}
+
+/* line 162, ../scss/styles.scss */
+.under14 {
+  color: blue;
+}
+
+/* line 165, ../scss/styles.scss */
+.under18 {
+  color: black;
+}
+
+/* line 169, ../scss/styles.scss */
+.minitennisbar {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/* line 175, ../scss/styles.scss */
+.coachlist ul {
+  list-style-type: none;
+  color: #4d4d4d;
+}
+/* line 178, ../scss/styles.scss */
+.coachlist ul li {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+/* line 182, ../scss/styles.scss */
+.coachlist ul li .mobile {
+  padding-left: 10px;
+}
+/* line 185, ../scss/styles.scss */
+.coachlist ul li > a {
+  color: orange;
+}
+/* line 190, ../scss/styles.scss */
+.coachlist .button {
+  width: 100%;
+}
+
+/*  Footer styles   */
+/* line 197, ../scss/styles.scss */
+.footer {
+  margin-top: 1.5em;
+}
+/* line 199, ../scss/styles.scss */
+.footer a {
+  color: #473016;
+}
+/* line 202, ../scss/styles.scss */
+.footer .footermenuhead {
+  margin-top: 1.25em;
+  margin-left: 20%;
+  color: gray;
+}
+/* line 207, ../scss/styles.scss */
+.footer .toprow {
+  background-color: #33353b;
+}
+/* line 210, ../scss/styles.scss */
+.footer .toprow .bigfooter ul {
+  list-style-type: none;
+}
+/* line 212, ../scss/styles.scss */
+.footer .toprow .bigfooter ul li a {
+  margin-left: 10%;
+  font-size: 0.75em;
+  text-decoration: none;
+  color: #e6e6e6;
+  display: block;
+}
+/* line 218, ../scss/styles.scss */
+.footer .toprow .bigfooter ul li a:hover {
+  background: #e6e6e6;
+  color: #4d4d4d;
+}
+/* line 225, ../scss/styles.scss */
+.footer .toprow .clublogo {
+  text-align: center;
+}
+/* line 227, ../scss/styles.scss */
+.footer .toprow .clublogo img {
+  max-width: 50%;
+  margin: 0 auto;
+}
+/* line 234, ../scss/styles.scss */
+.footer .bottomrow {
+  background-color: #26272b;
+  color: gray;
+}
+/* line 237, ../scss/styles.scss */
+.footer .bottomrow .contactsummary {
+  margin-top: 1em;
+}
+/* line 243, ../scss/styles.scss */
+.footer .footnav ul {
+  margin: 0.3125em 0 0 0;
+}
+/* line 246, ../scss/styles.scss */
+.footer .footnav li {
+  margin-left: 0;
+  margin-right: 0.9375em;
+}
+/* line 251, ../scss/styles.scss */
+.footer .footnav a:hover {
+  text-decoration: underline;
+}
+/* line 257, ../scss/styles.scss */
+.footer .joinus {
+  padding: 20px;
+  background-color: #e6e6e6;
+  color: #4d4d4d;
+}
+
+/* line 268, ../scss/styles.scss */
+.social h3 {
+  margin-top: 1.25em;
+}
+/* line 271, ../scss/styles.scss */
+.social ul {
+  float: left;
+}
+/* line 275, ../scss/styles.scss */
+.social li a {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  /*   CSS image replacement  
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  */
+}
+/* line 285, ../scss/styles.scss */
+.social li.facebook a {
+  background-position: 0 -224px;
+}
+/* line 287, ../scss/styles.scss */
+.social li.facebook a:hover {
+  background-position: 0 -192px;
+}
+/* line 291, ../scss/styles.scss */
+.social li.twitter a {
+  background-position: 0 -160px;
+}
+/* line 293, ../scss/styles.scss */
+.social li.twitter a:hover {
+  background-position: 0 -128px;
+}
+/* line 297, ../scss/styles.scss */
+.social li.wordpress a {
+  background-position: 0 -96px;
+}
+/* line 299, ../scss/styles.scss */
+.social li.wordpress a:hover {
+  background-position: 0 -64px;
+}
+/* line 303, ../scss/styles.scss */
+.social li.flickr a {
+  background-position: 0 -32px;
+}
+/* line 305, ../scss/styles.scss */
+.social li.flickr a:hover {
+  background-position: 0 0;
+}
+
+/* line 312, ../scss/styles.scss */
+.coachingscheduletable {
+  padding-left: 0.625em;
+}
+/* line 314, ../scss/styles.scss */
+.coachingscheduletable .grouprow {
+  padding: 0.875em 0;
+  border-bottom: 1px solid #4d4d4d;
+  border-top: 1px solid #4d4d4d;
+}
+/* line 319, ../scss/styles.scss */
+.coachingscheduletable ul {
+  list-style-type: none;
+}
+
+/* line 325, ../scss/styles.scss */
+.coachingstaff h5 a {
+  color: #4d4d4d;
+}
+/* line 329, ../scss/styles.scss */
+.coachingstaff .rhs {
+  text-align: right;
+}
+
+/* line 334, ../scss/styles.scss */
+.schedulebutton {
+  width: 100%;
+}
+
+/* line 338, ../scss/styles.scss */
+.cardiopanel {
+  border-left: 1px dashed #e6e6e6;
+  border-right: 1px dashed #e6e6e6;
+  height: 100%;
+}
+/* line 342, ../scss/styles.scss */
+.cardiopanel a {
+  margin-top: 20%;
+}
+
+/* line 348, ../scss/styles.scss */
+#contacts .button {
+  width: 100%;
+}
+
+/* line 353, ../scss/styles.scss */
+.sidebar {
+  padding-left: 15px;
+}
+/* line 356, ../scss/styles.scss */
+.sidebar .button {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 359, ../scss/styles.scss */
+.sidebar .button .small {
+  width: 50%;
+  position: relative;
+  left: 50%;
+}
+
+/* line 367, ../scss/styles.scss */
+a.closebutton, a.fullwidth {
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*   Main content area styling    */
+/* line 374, ../scss/styles.scss */
+.content {
+  margin-top: 1.25em;
+  /* slideshow    */
+  /* 
+  	.summary:hover {
+  		background: $light-grey;
+  	}
+   */
+}
+/* line 376, ../scss/styles.scss */
+.content .orbit-container {
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, color-stop(0%, #ffffff), color-stop(100%, #f7f7f7));
+  background: -webkit-radial-gradient(#ffffff, #f7f7f7);
+  background: -moz-radial-gradient(#ffffff, #f7f7f7);
+  background: -o-radial-gradient(#ffffff, #f7f7f7);
+  background: radial-gradient(#ffffff, #f7f7f7);
+}
+/* line 378, ../scss/styles.scss */
+.content .orbit-container li {
+  padding: 1.25em 2.5em;
+}
+/* line 380, ../scss/styles.scss */
+.content .orbit-container li:nth-child(1) {
+  background: url('../img/../img/CoachingBanner.png?1390390977') no-repeat right bottom;
+}
+/* line 383, ../scss/styles.scss */
+.content .orbit-container li:nth-child(2) {
+  background: url('../img/../img/CompeteBanner.png?1390389001') no-repeat right bottom;
+}
+/* line 386, ../scss/styles.scss */
+.content .orbit-container li:nth-child(3) {
+  background: url('../img/../img/SocialBanner.png?1390391988') no-repeat right bottom;
+}
+/* line 389, ../scss/styles.scss */
+.content .orbit-container li:nth-child(4) {
+  background: url('../img/../img/HolidayClubBanner.png?1390392402') no-repeat right bottom;
+}
+/* line 393, ../scss/styles.scss */
+.content .orbit-container a.orbit-prev, .content .orbit-container a.orbit-next {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+/* line 398, ../scss/styles.scss */
+.content .orbit-container:hover a.orbit-prev, .content .orbit-container:hover a.orbit-next {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 403, ../scss/styles.scss */
+.content .orbit-container h3 {
+  padding: 0.625em;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/* line 406, ../scss/styles.scss */
+.content .orbit-container h3 + p {
+  padding: 0.625em;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+/* line 420, ../scss/styles.scss */
+.content .summary img {
+  height: 7.5em;
+}
+
+/* line 425, ../scss/styles.scss */
+#blogposts {
+  border-top: 1px dotted #e6e6e6;
+  margin-top: 0.625em;
+}
+/* line 426, ../scss/styles.scss */
+#blogposts img {
+  position: relative;
+  top: 0.3125em;
+  left: 0.3125em;
+  max-width: 1.25em;
+  display: inline-block;
+  margin-right: 5%;
+  padding-top: 0.625em;
+  overflow: auto;
+}
+
+/* line 441, ../scss/styles.scss */
+.blogitem {
+  padding: 0.5em 0 0.5em 0.9375em;
+}
+
+/* line 445, ../scss/styles.scss */
+.blogitemtext {
+  font-size: 0.75em;
+  color: #4d4d4d;
+}
+
+/*
+.blogitemtitle {
+	font-size: emCalc(14px);
+	color: darken($dark-grey,50%);
+	font-weight: bold;
+}
+*/
+/* line 457, ../scss/styles.scss */
+.blogpostdate {
+  color: #878787;
+  font-size: 0.625em;
+  text-align: right;
+  padding-right: 0.625em;
+  font-style: italic;
+  line-height: 0.75em;
+}
+
+/* line 466, ../scss/styles.scss */
+.blogitem:hover {
+  background: #e6e6e6;
+}
+
+/*    Twitter styling   */
+/* line 473, ../scss/styles.scss */
+#twitter-feed #loading-container {
+  text-align: center;
+  padding: 1em 0px;
+}
+/* line 477, ../scss/styles.scss */
+#twitter-feed .twitter-article {
+  border-top: 1px dotted #e6e6e6;
+  padding: 0.3125em 0 0.3125em 0.9375em;
+}
+/* line 482, ../scss/styles.scss */
+#twitter-feed .twitter-article .twitter-pic img {
+  display: inline-block;
+  max-width: 80%;
+  margin: 0 5%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 490, ../scss/styles.scss */
+#twitter-feed .twitter-article .twitter-text .tweet-text {
+  font-size: 0.75em;
+  color: #4d4d4d;
+}
+/* line 495, ../scss/styles.scss */
+#twitter-feed .twitter-article .twitter-text:hover {
+  background: #e6e6e6;
+}
+/* line 499, ../scss/styles.scss */
+#twitter-feed .twitter-article .twitter-text p .tweet-time {
+  font-size: 0.625em;
+  color: #878787;
+}
+/* line 503, ../scss/styles.scss */
+#twitter-feed .twitter-article .twitter-text p .tweetprofilelink a {
+  color: #444;
+}
+/* line 505, ../scss/styles.scss */
+#twitter-feed .twitter-article .twitter-text p .tweetprofilelink a:hover {
+  color: #444;
+}
+
+/*    end of Twitter styling   */
+/* line 518, ../scss/styles.scss */
+.services .button {
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+}
+
+/* line 525, ../scss/styles.scss */
+.benefitstable th {
+  text-align: center;
+}
+
+/* line 528, ../scss/styles.scss */
+.benefitstable td {
+  text-align: center;
+}
+
+/* line 532, ../scss/styles.scss */
+.benefitstable tr td:nth-child(1) {
+  text-align: left;
+}
+
+/********************************************
+ *    Area for media query styles 
+ ********************************************/
+@media screen and (max-width: 500px) {
+  /* line 542, ../scss/styles.scss */
+  .button {
+    width: 90%;
+    margin: 0.625em auto 0.625em auto;
+  }
+
+  /* line 548, ../scss/styles.scss */
+  .footer .footermenuhead {
+    text-align: center;
+  }
+  /* line 553, ../scss/styles.scss */
+  .footer .toprow ul li {
+    margin: 0;
+    padding: 0;
+  }
+  /* line 556, ../scss/styles.scss */
+  .footer .toprow ul li a {
+    display: block;
+    text-align: center;
+    background: #4d4d4d;
+    color: #e6e6e6;
+    height: 2.5em;
+    font-size: 1em;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+  }
+  /* line 566, ../scss/styles.scss */
+  .footer .toprow ul li a:hover {
+    background: #e6e6e6;
+    color: #4d4d4d;
+  }
+  /* line 573, ../scss/styles.scss */
+  .footer .toprow .clublogo {
+    text-align: center;
+  }
+  /* line 575, ../scss/styles.scss */
+  .footer .toprow .clublogo img {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  /* line 586, ../scss/styles.scss */
+  .top-bar .title-area img {
+    position: relative;
+    top: 0.3125em;
+    left: 0.625em;
+    overflow: auto;
+    margin-bottom: 0.625em;
+  }
+
+  /* line 596, ../scss/styles.scss */
+  .minitennisbar {
+    font-size: 1.875em;
+  }
+}
+
+// Print styling
+
+@media print { 
+ /* All your print styles go here */
+ header, .footer, .button { display: none !important; } 
+}
+

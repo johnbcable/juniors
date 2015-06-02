@@ -1,0 +1,599 @@
+// Global Foundation Settings
+@import "config";
+
+// Import support for Compass mixins
+@import "compass/css3";
+
+//  Compass Sprite Helper (for social networking icons)
+@import "social/*.png";
+
+//  Include stuff relevant to Foundation icon fonts
+// Foundation general icon fonts
+$classPrefix: "foundicon-";
+
+// Mixins
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+  }
+}
+
+
+@include font-face("GeneralFoundicons", font-files("general_foundicons.ttf", "general_foundicons.otf", "general_foundicons.woff"), "general_foundicons.eot", normal);
+
+/* global foundicon styles */
+[class*="#{$classPrefix}"] {
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+[class*="#{$classPrefix}"]:before {
+  font-family: GeneralFoundicons;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+/* icons */
+@include i-class(settings,"000");
+@include i-class(heart,"001");
+@include i-class(star,"002");
+@include i-class(plus,"003");
+@include i-class(minus,"004");
+@include i-class(checkmark,"005");
+@include i-class(remove,"006");
+@include i-class(mail,"007");
+@include i-class(calendar,"008");
+@include i-class(page,"009");
+@include i-class(tools,"00a");
+@include i-class(globe,"00b");
+@include i-class(home,"00c");
+@include i-class(quote,"00d");
+@include i-class(people,"00e");
+@include i-class(monitor,"00f");
+@include i-class(laptop,"010");
+@include i-class(phone,"011");
+@include i-class(cloud,"012");
+@include i-class(error,"013");
+@include i-class(right-arrow,"014");
+@include i-class(left-arrow,"015");
+@include i-class(up-arrow,"016");
+@include i-class(down-arrow,"017");
+@include i-class(trash,"018");
+@include i-class(add-doc,"019");
+@include i-class(edit,"01a");
+@include i-class(lock,"01b");
+@include i-class(unlock,"01c");
+@include i-class(refresh,"01d");
+@include i-class(paper-clip,"01e");
+@include i-class(video,"01f");
+@include i-class(photo,"020");
+@include i-class(graph,"021");
+@include i-class(idea,"022");
+@include i-class(mic,"023");
+@include i-class(cart,"024");
+@include i-class(address-book,"025");
+@include i-class(compass,"026");
+@include i-class(flag,"027");
+@include i-class(location,"028");
+@include i-class(clock,"029");
+@include i-class(folder,"02a");
+@include i-class(inbox,"02b");
+@include i-class(website,"02c");
+@include i-class(smiley,"02d");
+@include i-class(search,"02e");
+
+// @include font-face("ChunkFive", font-files("ChunkFive-webfont.ttf", "ChunkFive-webfont.otf", "ChunkFive-webfont.woff"), "ChunkFive-webfont.eot", normal);
+// @include font-face("OpenSans", font-files("OpenSans-Regular-webfont.ttf", "OpenSans-Regular-webfont.otf", "OpenSans-Regular-webfont.woff"), "OpenSans-Regular-webfont.eot", normal);
+@include font-face("MyriadPro", font-files("MyriadPro_Regular.ttf", "MyriadPro_Regular.otf", "MyriadPro_Regular.woff"), "MyriadPro_Regular.eot", normal);
+@include font-face("NeoSansProBold", font-files("Neo-Sans-Pro-Bold.ttf", "Neo-Sans-Pro-Bold.otf", "Neo-Sans-Pro-Bold.woff"), "Neo-Sans-Pro-Bold.eot", normal);
+
+img {
+	margin-bottom: emCalc(20px);
+}
+
+.top-bar {
+	.title-area {
+		img {
+			position: relative;
+			top: emCalc(5px);
+			left: emCalc(10px);
+			overflow: auto;
+			margin-bottom: emCalc(10px);
+		}
+	}
+	.name 
+		h1 {
+		font-family: $logo-font-family;
+		text-transform: uppercase;
+		font-size: emCalc(14px);
+		}
+}
+
+header {
+	.mainbanner {
+		position: relative;
+		width: 100%;  // for IE
+		h2 {
+			position: absolute; 
+   			bottom: 0; 
+   			left: 0; 
+   			width: 100%; 
+   			font-family: $header-font-family;
+			color: white; 
+			letter-spacing: -1px;  
+		    background: rgb(0, 0, 0); /* fallback color */
+		    background: rgba(0, 0, 0, 0.7);
+		    padding-left: 30px;
+		    margin:0;
+		    overflow: hidden;
+		}
+	}
+}
+
+/*  Colours for junior coaching bands */
+
+.minired {
+	color:#ed1c24;   // mini-tennis red
+}
+.miniorange {
+	color:#f7941d;  // mini-tennis orange
+}
+.minigreen {
+	color:#bfd730;  // mini-tennis green
+}
+.minipink, .minitots {  // mini-tennis tots
+	color:#FF33CC;
+}
+.under12 {
+	color: #6600CC;
+}
+.under14 {
+	color:blue;
+}
+.under18 {
+	color: black;
+}
+
+.minitennisbar {
+	font-size: emCalc(40px);
+	font-weight: bold;
+}
+
+.coachlist {
+	ul {
+		list-style-type: none;
+		color: $dark-grey;
+		li {
+			margin: 0;
+			padding: 0;
+			line-height: 1.2;
+			.mobile {
+				padding-left: 10px;
+			}
+			&>a {
+				color: orange;
+			}
+		}
+	}
+	.button {
+		width: 100%;
+	}
+}
+
+/*  Footer styles   */
+
+.footer {
+	margin-top: emCalc(24px);
+	a {
+		color: $body-font-color;
+	}
+	.footermenuhead {
+		margin-top: emCalc(20px);
+		margin-left: 20%;
+		color: $medium-grey;
+	}
+	.toprow {
+		background-color: $footer-toprow-color;
+		.bigfooter {
+			ul {
+				list-style-type: none;
+				li a {
+					margin-left: 10%;
+					font-size: emCalc(12px);
+					text-decoration: none;
+					color: $light-grey;
+					display: block;
+					&:hover {
+						background: $light-grey;
+						color: $dark-grey;
+					}
+				}
+			}
+		}
+		.clublogo {
+			text-align: center;
+			img {
+				max-width: 50%;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	.bottomrow {
+		background-color: $footer-bottomrow-color;
+		color: $medium-grey;
+		.contactsummary {
+			margin-top: emCalc(16px);
+		}
+	}
+
+	.footnav {
+		ul {
+			margin: emCalc(5px) 0 0 0;
+		}
+		li {
+			margin-left: 0;
+			margin-right: emCalc(15px);
+		}
+		a {
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.joinus {
+		padding: 20px;
+		background-color: $light-grey;
+		color: $dark-grey;
+	}
+
+}
+
+.social {
+	$height: social-sprite-height(facebook);
+	$width: social-sprite-width(facebook);
+	h3 {
+		margin-top: emCalc(20px);
+	}
+	ul {
+		float: left;
+	}
+	li {
+		a {
+			display: inline-block;
+			height: $height;
+			width: $width;
+			/*   CSS image replacement  
+			text-indent: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			*/
+		}
+		&.facebook a {
+			@include social-sprite(facebook);
+			&:hover {
+				@include social-sprite(facebook-hover);
+			}
+		}
+		&.twitter a {
+			@include social-sprite(twitter);
+			&:hover {
+				@include social-sprite(twitter-hover);
+			}
+		}
+		&.wordpress a {
+			@include social-sprite(wordpress);
+			&:hover {
+				@include social-sprite(wordpress-hover);
+			}
+		}
+		&.flickr a {
+			@include social-sprite(flickr);
+			&:hover {
+				@include social-sprite(flickr-hover);
+			}
+		}
+	}
+}
+
+.coachingscheduletable {
+	padding-left: emCalc(10px);
+	.grouprow {
+		padding: emCalc(14px) 0;
+		border-bottom: 1px solid $dark-grey;
+		border-top: 1px solid $dark-grey;
+	}
+	ul {
+		list-style-type: none;
+	}
+}
+.coachingstaff {
+	h5 {
+		a {
+			color: $header-font-color;
+		}	
+	}
+	.rhs {
+		text-align:right;
+	}
+}
+
+.schedulebutton {
+	width: 100%;
+}
+
+.cardiopanel {
+	border-left: 1px dashed $light-grey;
+	border-right: 1px dashed $light-grey;
+	height: 100%;
+	a {
+		margin-top: 20%;
+	}
+}
+
+#contacts {
+	.button {
+		width: 100%;
+	}
+}
+
+.sidebar {
+	// border-left: 1px dotted $light-grey;
+	padding-left: 15px;
+	.button {
+		width: 100%;
+		margin: 0 auto;
+		.small {
+			width: 50%;
+			position: relative;
+			left: 50%;
+		}
+	}
+}
+
+a.closebutton, a.fullwidth {
+		display: inline-block;
+		width: 100%;
+		margin: 0 auto;
+}
+/*   Main content area styling    */
+
+.content {
+	margin-top: emCalc(20px);
+	.orbit-container {
+		@include background(radial-gradient(lighten($body-bg, 6%), darken($body-bg, 3%)));
+		li {
+			padding: emCalc(20px) emCalc(40px);
+			&:nth-child(1) {
+				background: image-url('../img/CoachingBanner.png') no-repeat right bottom;
+			}
+			&:nth-child(2) {
+				background: image-url('../img/CompeteBanner.png') no-repeat right bottom;
+			}
+			&:nth-child(3) {
+				background: image-url('../img/SocialBanner.png') no-repeat right bottom;
+			}
+			&:nth-child(4) {
+				background: image-url('../img/HolidayClubBanner.png') no-repeat right bottom;
+			}
+		}
+		a.orbit-prev, a.orbit-next {
+			@include opacity(0);
+			@include single-transition(opacity, 400ms);
+		}
+		&:hover {
+			a.orbit-prev, a.orbit-next {
+				@include opacity(1);
+			}
+		}
+
+		h3 {
+			padding: emCalc(10px);
+			background-color: rgba($white, .3);
+			+ p {
+				padding: emCalc(10px);
+				background-color: rgba($white, .5);
+				position: relative;
+				// bottom: emCalc(20px);
+			}
+		}
+	}   /* slideshow    */
+
+/* 
+	.summary:hover {
+		background: $light-grey;
+	}
+ */	
+.summary img {
+		height: emCalc(120px);
+	}
+}
+
+#blogposts {
+	img {
+		position: relative;
+		top: emCalc(5px);
+		left: emCalc(5px);
+		max-width: emCalc(20px);
+		display: inline-block;
+		margin-right: 5%;
+		padding-top: emCalc(10px);
+		overflow: auto;
+	}
+
+	border-top: 1px dotted $light-grey;
+	margin-top: emCalc(10px);
+}
+
+.blogitem {
+	padding: emCalc(8px) 0 emCalc(8px) emCalc(15px);
+}
+
+.blogitemtext {
+	font-size: emCalc(12px);
+	color: $dark-grey;
+}
+
+/*
+.blogitemtitle {
+	font-size: emCalc(14px);
+	color: darken($dark-grey,50%);
+	font-weight: bold;
+}
+*/
+.blogpostdate {
+	color: #878787;
+	font-size: emCalc(10px);
+	text-align: right;
+	padding-right: emCalc(10px);
+	font-style: italic;
+	line-height: emCalc(12px);
+}
+
+.blogitem:hover {
+		background: $light-grey;
+}
+
+/*    Twitter styling   */
+
+#twitter-feed {
+	#loading-container {
+		text-align: center;
+		padding: emCalc(16px) 0px;
+	}
+	.twitter-article {
+		border-top: 1px dotted $light-grey;
+		// margin-top: emCalc(10px);
+		padding: emCalc(5px) 0 emCalc(5px) emCalc(15px);
+		.twitter-pic {
+			img {
+				display: inline-block;
+				max-width: 80%;
+				margin: 0 5%;
+				@include border-radius(7px);
+			}
+		}
+		.twitter-text {
+			.tweet-text {
+				font-size: emCalc(12px);
+				color: $dark-grey;
+				// line-height: emCalc(12px);
+			}
+			&:hover {
+				background: $light-grey;
+			}
+			p {
+				.tweet-time {
+					font-size: emCalc(10px);
+					color: #878787;
+				}
+				.tweetprofilelink a {
+					color:#444;
+					&:hover {
+						color:#444;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/*    end of Twitter styling   */
+
+.services {
+	.button {
+		width: 80%;
+		margin: 0 10%;
+		text-align: center;
+	}
+}
+
+.benefitstable th {
+		text-align: center;
+}
+.benefitstable td {
+	text-align: center;
+}
+.benefitstable tr td {
+	&:nth-child(1) {
+		text-align: left;
+	}
+}
+/********************************************
+ *    Area for media query styles 
+ ********************************************/
+
+@media screen and (max-width: 500px) {
+
+	.footer {
+		.footermenuhead {
+			text-align: center;
+		}
+		.toprow {
+			ul {
+				li {
+					margin: 0;
+					padding: 0;
+					a {
+						display: block;
+						text-align: center;
+						background: $dark-grey;
+						color: $light-grey;
+						height: emCalc(40px);
+						font-size: emCalc(16px);
+						vertical-align: middle;
+						margin: 0;
+						padding: 0;
+						&:hover {
+							background: $light-grey;
+							color: $dark-grey;
+						}
+					}
+				}
+			}
+			.clublogo {
+				text-align: center;
+				img {
+					max-width: 50%;
+					margin: 0 auto;
+				}
+			}
+
+		}
+	}
+
+	.top-bar {
+		.title-area {
+			img {
+				position: relative;
+				top: emCalc(5px);
+				left: emCalc(10px);
+				overflow: auto;
+				margin-bottom: emCalc(10px);
+			}
+		}
+	}
+
+	.minitennisbar {
+		font-size: emCalc(30px);
+	}
+
+}    // end of media query for smartphones
+
+
+
+

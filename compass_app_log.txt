@@ -1,0 +1,471 @@
+2013-11-23 12:55:02    create css/app.css 
+2013-11-23 12:55:07    create css/base.css 
+2013-11-23 12:58:15    remove .sass-cache/ 
+2013-11-23 12:58:15    remove css/app.css 
+2013-11-23 12:58:15    remove css/base.css 
+2013-11-23 12:58:31    create css/app.css 
+2013-11-23 12:58:35    create css/base.css 
+2013-11-23 12:59:37    remove .sass-cache/ 
+2013-11-23 12:59:37    remove css/app.css 
+2013-11-23 12:59:37    remove css/base.css 
+2013-11-23 12:59:46    create css/app.css 
+2013-11-23 12:59:49    create css/base.css 
+2013-11-23 12:59:51    create img/social-sa6f3fbe130.png
+2013-11-23 12:59:53     error scss/styles.scss (Line 30: Undefined variable: "$logo-font-family".)
+2013-11-23 12:59:53    create css/styles.css 
+2013-11-23 13:01:45 unchanged img/social-sa6f3fbe130.png
+2013-11-23 13:01:45 unchanged img/social-sa6f3fbe130.png
+2013-11-23 13:01:45     error scss/styles.scss (Line 30: Undefined variable: "$logo-font-family".)
+2013-11-23 13:01:45 overwrite css/styles.css 
+2013-11-23 13:01:45     error scss/styles.scss (Line 30: Undefined variable: "$logo-font-family".)
+2013-11-23 13:01:45 identical css/styles.css 
+2013-11-23 13:03:07 unchanged img/social-sa6f3fbe130.png
+2013-11-23 13:03:07 unchanged img/social-sa6f3fbe130.png
+2013-11-23 13:03:07     error scss/styles.scss (Line 30: Undefined variable: "$logo-font-family".)
+2013-11-23 13:03:07 identical css/styles.css 
+2013-11-23 13:03:07     error scss/styles.scss (Line 30: Undefined variable: "$logo-font-family".)
+2013-11-23 13:03:07 identical css/styles.css 
+2013-11-23 13:10:41 overwrite css/base.css 
+2013-11-23 13:10:41 identical css/base.css 
+2013-11-23 13:10:42 unchanged img/social-sa6f3fbe130.png
+2013-11-23 13:10:42 unchanged img/social-sa6f3fbe130.png
+2013-11-23 13:10:42 overwrite css/styles.css 
+2013-11-23 13:10:42 overwrite css/styles.css 
+2013-11-23 13:10:50    remove .sass-cache/ 
+2013-11-23 13:10:50    remove css/app.css 
+2013-11-23 13:10:50    remove css/base.css 
+2013-11-23 13:10:50    remove css/styles.css 
+2013-11-23 13:11:00    create css/app.css 
+2013-11-23 13:11:03    create css/base.css 
+2013-11-23 13:11:05    create img/social-sa6f3fbe130.png
+2013-11-23 13:11:06    create css/styles.css 
+2013-11-23 16:08:03 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:08:03 overwrite css/styles.css 
+2013-11-23 16:08:18    remove .sass-cache/ 
+2013-11-23 16:08:18    remove css/app.css 
+2013-11-23 16:08:18    remove css/base.css 
+2013-11-23 16:08:18    remove css/styles.css 
+2013-11-23 16:08:27    create css/app.css 
+2013-11-23 16:08:30    create css/base.css 
+2013-11-23 16:08:33    create img/social-sa6f3fbe130.png
+2013-11-23 16:08:33    create css/styles.css 
+2013-11-23 16:10:36 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:10:36 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:10:36 overwrite css/styles.css 
+2013-11-23 16:10:36 identical css/styles.css 
+2013-11-23 16:14:08 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:14:08 overwrite css/styles.css 
+2013-11-23 16:14:09 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:14:09 identical css/styles.css 
+2013-11-23 16:14:22    remove .sass-cache/ 
+2013-11-23 16:14:22    remove css/app.css 
+2013-11-23 16:14:22    remove css/base.css 
+2013-11-23 16:14:22    remove css/styles.css 
+2013-11-23 16:14:29    create css/app.css 
+2013-11-23 16:14:32    create css/base.css 
+2013-11-23 16:14:34    create img/social-sa6f3fbe130.png
+2013-11-23 16:14:34    create css/styles.css 
+2013-11-23 16:23:25 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:23:25 overwrite css/styles.css 
+2013-11-23 16:23:47    remove .sass-cache/ 
+2013-11-23 16:23:47    remove css/app.css 
+2013-11-23 16:23:47    remove css/base.css 
+2013-11-23 16:23:47    remove css/styles.css 
+2013-11-23 16:23:54    create css/app.css 
+2013-11-23 16:23:57    create css/base.css 
+2013-11-23 16:23:59    create img/social-sa6f3fbe130.png
+2013-11-23 16:23:59    create css/styles.css 
+2013-11-23 16:49:59 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:49:59 overwrite css/styles.css 
+2013-11-23 16:51:02 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:51:02 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:51:02 overwrite css/styles.css 
+2013-11-23 16:51:02 identical css/styles.css 
+2013-11-23 16:52:08     error scss/styles.scss (Line 2: Undefined mixin 'font-face'.)
+2013-11-23 16:52:08 overwrite css/styles.css 
+2013-11-23 16:52:08     error scss/styles.scss (Line 2: Undefined mixin 'font-face'.)
+2013-11-23 16:52:08 identical css/styles.css 
+2013-11-23 16:52:24 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:52:25 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:52:25 overwrite css/styles.css 
+2013-11-23 16:52:25 identical css/styles.css 
+2013-11-23 16:53:52 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:53:52 overwrite css/styles.css 
+2013-11-23 16:54:16 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:54:16 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:54:16 overwrite css/styles.css 
+2013-11-23 16:54:17 identical css/styles.css 
+2013-11-23 16:54:42 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:54:43 overwrite css/styles.css 
+2013-11-23 16:58:54 overwrite css/base.css 
+2013-11-23 16:58:54 identical css/base.css 
+2013-11-23 16:58:55 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:58:55 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:58:55     error scss/styles.scss (Line 40 of scss/_config.scss: Undefined variable: "$em-base".)
+2013-11-23 16:58:55 overwrite css/styles.css 
+2013-11-23 16:58:56     error scss/styles.scss (Line 40 of scss/_config.scss: Undefined variable: "$em-base".)
+2013-11-23 16:58:56 identical css/styles.css 
+2013-11-23 16:59:16 identical css/base.css 
+2013-11-23 16:59:16 identical css/base.css 
+2013-11-23 16:59:17 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:59:17 unchanged img/social-sa6f3fbe130.png
+2013-11-23 16:59:17     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 16:59:17 overwrite css/styles.css 
+2013-11-23 16:59:17     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 16:59:17 identical css/styles.css 
+2013-11-23 17:01:06 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:01:06 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:01:06     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 17:01:07 identical css/styles.css 
+2013-11-23 17:01:07     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 17:01:07 identical css/styles.css 
+2013-11-23 17:01:31 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:01:31 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:01:31     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 17:01:31 identical css/styles.css 
+2013-11-23 17:01:32     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 17:01:32 identical css/styles.css 
+2013-11-23 17:02:07 overwrite css/base.css 
+2013-11-23 17:02:07 identical css/base.css 
+2013-11-23 17:02:07 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:02:07 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:02:07     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 17:02:07     error scss/styles.scss (Line 17: 1.25em/px isn't a valid CSS value.)
+2013-11-23 17:02:07 identical css/styles.css 
+2013-11-23 17:02:08 identical css/styles.css 
+2013-11-23 17:03:23 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:03:23     error scss/styles.scss (Line 24: 0.3125em/px isn't a valid CSS value.)
+2013-11-23 17:03:23 overwrite css/styles.css 
+2013-11-23 17:03:45 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:03:46 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:03:46     error scss/styles.scss (Line 96: 0.75em/px isn't a valid CSS value.)
+2013-11-23 17:03:46 overwrite css/styles.css 
+2013-11-23 17:03:46     error scss/styles.scss (Line 96: 0.75em/px isn't a valid CSS value.)
+2013-11-23 17:03:46 identical css/styles.css 
+2013-11-23 17:04:09 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:04:09 unchanged img/social-sa6f3fbe130.png
+2013-11-23 17:04:09 overwrite css/styles.css 
+2013-11-23 17:04:09 identical css/styles.css 
+2013-11-25 10:55:06 unchanged img/social-sa6f3fbe130.png
+2013-11-25 10:55:06 overwrite css/styles.css 
+2013-11-25 11:26:03 unchanged img/social-sa6f3fbe130.png
+2013-11-25 11:26:04 overwrite css/styles.css 
+2013-11-25 13:40:01    create css/foundation.css 
+2013-11-25 13:40:01 identical css/foundation.css 
+2013-11-25 13:40:01    create css/normalize.css 
+2013-11-25 13:40:01 identical css/normalize.css 
+2013-11-25 13:40:06    remove .sass-cache/ 
+2013-11-25 13:40:06    remove css/foundation.css 
+2013-11-25 13:40:06    remove css/normalize.css 
+2013-11-25 13:40:15    create css/foundation.css 
+2013-11-25 13:40:15    create css/normalize.css 
+2013-11-25 13:41:53     error scss/styles.scss (Line 2: File to import not found or unreadable: config.
+Load paths:
+  /Users/a03pl/Sites/juniors/scss
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/a03pl/Sites/juniors/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /Users/a03pl/vendor/assets/stylesheets)
+2013-11-25 13:41:53 overwrite css/styles.css 
+2013-11-25 13:41:53     error scss/styles.scss (Line 2: File to import not found or unreadable: config.
+Load paths:
+  /Users/a03pl/Sites/juniors/scss
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/a03pl/Sites/juniors/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /Users/a03pl/vendor/assets/stylesheets)
+2013-11-25 13:41:53 overwrite css/styles.css 
+2013-11-25 13:42:01    create img/social-sa6f3fbe130.png
+2013-11-25 13:42:02    create img/social-sa6f3fbe130.png
+2013-11-25 13:42:02 overwrite css/styles.css 
+2013-11-25 13:42:02 identical css/styles.css 
+2013-11-25 13:44:54    remove .sass-cache/ 
+2013-11-25 13:44:54    remove css/foundation.css 
+2013-11-25 13:44:54    remove css/normalize.css 
+2013-11-25 13:44:54    remove css/styles.css 
+2013-11-25 13:45:02    create css/foundation.css 
+2013-11-25 13:45:02    create css/normalize.css 
+2013-11-25 13:45:05    create img/social-sa6f3fbe130.png
+2013-11-25 13:45:05    create css/styles.css 
+2013-11-25 14:10:25 overwrite css/app.css 
+2013-11-25 14:10:26 overwrite css/base.css 
+2013-11-25 14:10:47    remove .sass-cache/ 
+2013-11-25 14:10:47    remove css/app.css 
+2013-11-25 14:10:47    remove css/base.css 
+2013-11-25 14:10:47    remove css/foundation.css 
+2013-11-25 14:10:47    remove css/normalize.css 
+2013-11-25 14:10:47    remove css/styles.css 
+2013-11-25 14:10:49     error scss/app.scss (Line 1: File to import not found or unreadable: settings.
+Load paths:
+  /Users/a03pl/Sites/juniors/scss
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-0.10.4/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp-0.1.1/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.2.1/vendor/assets/stylesheets
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.9/sass
+  /Users/a03pl/Downloads/compass-3.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.3.1/scss
+  /Users/a03pl/Sites/juniors/bower_components/foundation/scss
+  Compass::SpriteImporter
+  /Users/a03pl/vendor/assets/stylesheets)
+2013-11-25 14:10:49    create css/app.css 
+2013-11-25 14:11:00    create css/base.css 
+2013-11-25 14:11:03    create css/foundation.css 
+2013-11-25 14:11:03    create css/normalize.css 
+2013-11-25 14:11:06    create img/social-sa6f3fbe130.png
+2013-11-25 14:11:06    create css/styles.css 
+2013-11-25 14:38:01 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:38:01 overwrite css/styles.css 
+2013-11-25 14:39:05 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:39:05 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:39:05 overwrite css/styles.css 
+2013-11-25 14:39:06 identical css/styles.css 
+2013-11-25 14:52:17 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:52:18 identical css/styles.css 
+2013-11-25 14:52:30    remove .sass-cache/ 
+2013-11-25 14:52:30    remove stylesheets/app.css 
+2013-11-25 14:52:37    create stylesheets/app.css 
+2013-11-25 14:54:07    remove .sass-cache/ 
+2013-11-25 14:54:07    remove css/app.css 
+2013-11-25 14:54:07    remove css/styles.css 
+2013-11-25 14:54:14    create css/app.css 
+2013-11-25 14:54:16    create img/social-sa6f3fbe130.png
+2013-11-25 14:54:16    create css/styles.css 
+2013-11-25 14:56:30 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:56:31 overwrite css/styles.css 
+2013-11-25 14:58:50 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:58:50 overwrite css/styles.css 
+2013-11-25 14:59:29 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:59:29 overwrite css/styles.css 
+2013-11-25 14:59:49 unchanged img/social-sa6f3fbe130.png
+2013-11-25 14:59:50 overwrite css/styles.css 
+2013-11-25 15:00:20 unchanged img/social-sa6f3fbe130.png
+2013-11-25 15:00:20 overwrite css/styles.css 
+2013-11-25 16:51:48 unchanged img/social-sa6f3fbe130.png
+2013-11-25 16:51:48 overwrite css/styles.css 
+2013-11-25 16:52:51 unchanged img/social-sa6f3fbe130.png
+2013-11-25 16:52:51 unchanged img/social-sa6f3fbe130.png
+2013-11-25 16:52:51 overwrite css/styles.css 
+2013-11-25 16:52:51 identical css/styles.css 
+2013-11-25 17:52:34 unchanged img/social-sa6f3fbe130.png
+2013-11-25 17:52:35 overwrite css/styles.css 
+2013-11-25 21:42:01 unchanged img/social-sa6f3fbe130.png
+2013-11-25 21:42:02 overwrite css/styles.css 
+2013-11-25 21:46:06 unchanged img/social-sa6f3fbe130.png
+2013-11-25 21:46:06 overwrite css/styles.css 
+2013-11-26 12:44:07 unchanged img/social-sa6f3fbe130.png
+2013-11-26 12:44:07 overwrite css/styles.css 
+2013-11-26 12:46:31 unchanged img/social-sa6f3fbe130.png
+2013-11-26 12:46:32 overwrite css/styles.css 
+2013-11-26 12:51:51 unchanged img/social-sa6f3fbe130.png
+2013-11-26 12:51:51 unchanged img/social-sa6f3fbe130.png
+2013-11-26 12:51:52 overwrite css/styles.css 
+2013-11-26 12:51:52 identical css/styles.css 
+2013-11-26 12:52:41 unchanged img/social-sa6f3fbe130.png
+2013-11-26 12:52:41 unchanged img/social-sa6f3fbe130.png
+2013-11-26 12:52:41 overwrite css/styles.css 
+2013-11-26 12:52:41 identical css/styles.css 
+2013-11-26 16:56:58     error scss/styles.scss (Line 310: Invalid CSS after "		color: ": expected expression (e.g. 1px, bold), was "&dark-grey;")
+2013-11-26 16:56:58 overwrite css/styles.css 
+2013-11-26 16:57:11 unchanged img/social-sa6f3fbe130.png
+2013-11-26 16:57:11 overwrite css/styles.css 
+2013-11-26 16:57:11 identical css/styles.css 
+2013-11-26 16:58:36 unchanged img/social-sa6f3fbe130.png
+2013-11-26 16:58:36 unchanged img/social-sa6f3fbe130.png
+2013-11-26 16:58:36 overwrite css/styles.css 
+2013-11-26 16:58:36 identical css/styles.css 
+2013-11-26 17:02:31 unchanged img/social-sa6f3fbe130.png
+2013-11-26 17:02:31 overwrite css/styles.css 
+2013-11-26 17:02:42 unchanged img/social-sa6f3fbe130.png
+2013-11-26 17:02:42 overwrite css/styles.css 
+2013-11-26 17:07:56 unchanged img/social-sa6f3fbe130.png
+2013-11-26 17:07:56 overwrite css/styles.css 
+2013-11-26 17:15:15 unchanged img/social-sa6f3fbe130.png
+2013-11-26 17:15:15 overwrite css/styles.css 
+2013-11-26 17:31:23 unchanged img/social-sa6f3fbe130.png
+2013-11-26 17:31:23 overwrite css/styles.css 
+2013-11-28 13:12:19 unchanged img/social-sa6f3fbe130.png
+2013-11-28 13:12:20 overwrite css/styles.css 
+2013-11-28 13:23:34     error scss/styles.scss (Line 345: Invalid CSS after "		&:hover:": expected pseudoclass or pseudoelement, was " {")
+2013-11-28 13:23:34 overwrite css/styles.css 
+2013-11-28 13:23:37     error scss/styles.scss (Line 345: Invalid CSS after "		&:hover:": expected pseudoclass or pseudoelement, was " {")
+2013-11-28 13:23:37 identical css/styles.css 
+2013-11-28 13:23:38     error scss/styles.scss (Line 345: Invalid CSS after "		&:hover:": expected pseudoclass or pseudoelement, was " {")
+2013-11-28 13:23:38 identical css/styles.css 
+2013-11-28 13:25:12     error scss/styles.scss (Line 345: Invalid CSS after "		&:hover:": expected pseudoclass or pseudoelement, was " {")
+2013-11-28 13:25:12 identical css/styles.css 
+2013-11-28 13:25:12     error scss/styles.scss (Line 345: Invalid CSS after "		&:hover:": expected pseudoclass or pseudoelement, was " {")
+2013-11-28 13:25:12 identical css/styles.css 
+2013-11-28 13:25:37 unchanged img/social-sa6f3fbe130.png
+2013-11-28 13:25:37 overwrite css/styles.css 
+2013-11-28 13:25:37 identical css/styles.css 
+2013-11-28 13:26:34    remove .sass-cache/ 
+2013-11-28 13:26:34    remove css/app.css 
+2013-11-28 13:26:34    remove css/styles.css 
+2013-11-28 13:26:42    create css/app.css 
+2013-11-28 13:26:45    create img/social-sa6f3fbe130.png
+2013-11-28 13:26:45    create css/styles.css 
+2013-11-28 13:30:11 unchanged img/social-sa6f3fbe130.png
+2013-11-28 13:30:11 unchanged img/social-sa6f3fbe130.png
+2013-11-28 13:30:11 overwrite css/styles.css 
+2013-11-28 13:30:11 identical css/styles.css 
+2013-11-28 13:54:01 unchanged img/social-sa6f3fbe130.png
+2013-11-28 13:54:01 unchanged img/social-sa6f3fbe130.png
+2013-11-28 13:54:01 overwrite css/styles.css 
+2013-11-28 13:54:01 overwrite css/styles.css 
+2013-11-28 14:02:59 unchanged img/social-sa6f3fbe130.png
+2013-11-28 14:02:59 overwrite css/styles.css 
+2013-11-28 15:57:49 unchanged img/social-sa6f3fbe130.png
+2013-11-28 15:57:49 overwrite css/styles.css 
+2013-11-28 15:57:50 unchanged img/social-sa6f3fbe130.png
+2013-11-28 15:57:50 identical css/styles.css 
+2013-11-28 16:00:51 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:00:51 overwrite css/styles.css 
+2013-11-28 16:01:56 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:01:56 overwrite css/styles.css 
+2013-11-28 16:01:56 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:01:57 identical css/styles.css 
+2013-11-28 16:02:42 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:02:43 overwrite css/styles.css 
+2013-11-28 16:04:04 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:04:04 overwrite css/styles.css 
+2013-11-28 16:04:46 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:04:47 overwrite css/styles.css 
+2013-11-28 16:05:19 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:05:19 overwrite css/styles.css 
+2013-11-28 16:07:31 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:07:31 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:07:31 overwrite css/styles.css 
+2013-11-28 16:07:31 identical css/styles.css 
+2013-11-28 16:10:12 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:10:12 overwrite css/styles.css 
+2013-11-28 16:11:43 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:11:43 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:11:43 overwrite css/styles.css 
+2013-11-28 16:11:43 identical css/styles.css 
+2013-11-28 16:14:45 unchanged img/social-sa6f3fbe130.png
+2013-11-28 16:14:45 overwrite css/styles.css 
+2013-11-28 17:06:45 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:06:45 overwrite css/styles.css 
+2013-11-28 17:06:46 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:06:46 identical css/styles.css 
+2013-11-28 17:07:45 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:07:45 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:07:45 overwrite css/styles.css 
+2013-11-28 17:07:45 identical css/styles.css 
+2013-11-28 17:10:15 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:10:16 overwrite css/styles.css 
+2013-11-28 17:10:16 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:10:16 identical css/styles.css 
+2013-11-28 17:14:18 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:14:18 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:14:18 overwrite css/styles.css 
+2013-11-28 17:14:19 identical css/styles.css 
+2013-11-28 17:19:40 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:19:40 overwrite css/styles.css 
+2013-11-28 17:19:40 unchanged img/social-sa6f3fbe130.png
+2013-11-28 17:19:40 identical css/styles.css 
+2013-11-28 21:35:32 unchanged img/social-sa6f3fbe130.png
+2013-11-28 21:35:32 unchanged img/social-sa6f3fbe130.png
+2013-11-28 21:35:33     error scss/styles.scss (Line 371: Undefined variable: "$small-only".)
+2013-11-28 21:35:33 overwrite css/styles.css 
+2013-11-28 21:35:33     error scss/styles.scss (Line 371: Undefined variable: "$small-only".)
+2013-11-28 21:35:33 overwrite css/styles.css 
+2013-11-28 21:36:22 unchanged img/social-sa6f3fbe130.png
+2013-11-28 21:36:22 unchanged img/social-sa6f3fbe130.png
+2013-11-28 21:36:22     error scss/styles.scss (Line 371: Undefined variable: "$screen".)
+2013-11-28 21:36:22 overwrite css/styles.css 
+2013-11-28 21:36:22     error scss/styles.scss (Line 371: Undefined variable: "$screen".)
+2013-11-28 21:36:22 overwrite css/styles.css 
+2013-11-29 08:33:33 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:33:33 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:33:35     error scss/styles.scss (Line 371: Undefined variable: "$small-only".)
+2013-11-29 08:33:35 overwrite css/styles.css 
+2013-11-29 08:33:35     error scss/styles.scss (Line 371: Undefined variable: "$small-only".)
+2013-11-29 08:33:35 overwrite css/styles.css 
+2013-11-29 08:35:07 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:35:07 overwrite css/styles.css 
+2013-11-29 08:35:08 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:35:08 identical css/styles.css 
+2013-11-29 08:35:12 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:35:12 identical css/styles.css 
+2013-11-29 08:38:33 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:38:33 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:38:33 overwrite css/styles.css 
+2013-11-29 08:38:34 identical css/styles.css 
+2013-11-29 08:47:24 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:47:24 overwrite css/styles.css 
+2013-11-29 08:47:25 unchanged img/social-sa6f3fbe130.png
+2013-11-29 08:47:25 identical css/styles.css 
+2013-11-29 09:01:00 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:01:00 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:01:00 overwrite css/styles.css 
+2013-11-29 09:01:01 identical css/styles.css 
+2013-11-29 09:01:20 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:01:20 identical css/styles.css 
+2013-11-29 09:01:20 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:01:20 identical css/styles.css 
+2013-11-29 09:03:24 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:03:24 overwrite css/styles.css 
+2013-11-29 09:03:25 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:03:25 identical css/styles.css 
+2013-11-29 09:03:56 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:03:56 overwrite css/styles.css 
+2013-11-29 09:04:14 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:04:14 overwrite css/styles.css 
+2013-11-29 09:04:15 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:04:15 identical css/styles.css 
+2013-11-29 09:04:24 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:04:25 overwrite css/styles.css 
+2013-11-29 09:05:04 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:05:04 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:05:05 overwrite css/styles.css 
+2013-11-29 09:05:05 identical css/styles.css 
+2013-11-29 09:05:19 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:05:19 overwrite css/styles.css 
+2013-11-29 09:05:20 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:05:20 identical css/styles.css 
+2013-11-29 09:05:52 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:05:52 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:05:52 overwrite css/styles.css 
+2013-11-29 09:05:52 identical css/styles.css 
+2013-11-29 09:06:14 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:06:15 overwrite css/styles.css 
+2013-11-29 09:06:15 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:06:15 identical css/styles.css 
+2013-11-29 09:06:47 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:06:47 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:06:47 overwrite css/styles.css 
+2013-11-29 09:06:47 identical css/styles.css 
+2013-11-29 09:08:55 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:08:55 overwrite css/styles.css 
+2013-11-29 09:08:55 identical css/styles.css 
+2013-11-29 09:21:46 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:21:46 overwrite css/styles.css 
+2013-11-29 09:21:47 unchanged img/social-sa6f3fbe130.png
+2013-11-29 09:21:47 identical css/styles.css 
+2013-12-02 19:16:37 unchanged img/social-sa6f3fbe130.png
+2013-12-02 19:16:37 overwrite css/styles.css 
+2013-12-02 19:17:29 unchanged img/social-sa6f3fbe130.png
+2013-12-02 19:17:29 overwrite css/styles.css 
+2013-12-02 19:17:30 unchanged img/social-sa6f3fbe130.png
+2013-12-02 19:17:30 identical css/styles.css 
+2013-12-02 19:19:21 unchanged img/social-sa6f3fbe130.png
+2013-12-02 19:19:21 overwrite css/styles.css 
+2013-12-02 19:19:22 unchanged img/social-sa6f3fbe130.png
+2013-12-02 19:19:22 identical css/styles.css 
