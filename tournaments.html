@@ -225,7 +225,11 @@
 
         <div class="large-12 medium-12 small-12 columns">
           <h6>{{tourtitle}}</h6>
-          <p class="tournamentwhen">{{startdate}} at {{sortablestarttime}}</p>
+          {{#if tourend}}
+          <p class="tournamentwhen">From {{tourstart}} to {{tourend}}</p>
+          {{else}}
+          <p class="tournamentwhen">Starts on {{startdate}}</p>
+          {{/if}}
           {{#if tourfinalsday}}
           <p class="tourfinalsfday">
             Finals Day:  {{tourfinalsday}} from {{sortablefinalsstarttime}} to {{sortablefinalsendtime}}
@@ -244,7 +248,7 @@
           </p>
           {{#if toururl}}
           <p class="tournamentflyer">
-            <a href="../documents/{{toururl}}">More information &raquo;</a>
+            <a href="/documents/{{toururl}}">More information &raquo;</a>
           </p>
           {{/if}}
           <hr />
@@ -271,7 +275,11 @@
         {{#each pastTournaments}}
         <div class="collapsible">{{tourtitle}}<span></span></div>
           <div class="collapsible-container">
-            <p class="tournamentwhen">Start: {{startdate}} at {{sortablestarttime}}</p>
+            {{#if tourend}}
+            <p class="tournamentwhen">From {{tourstart}} to {{tourend}}</p>
+            {{else}}
+            <p class="tournamentwhen">Starts on {{startdate}}</p>
+            {{/if}}
             {{#if tourfinalsday}}
             <p class="tourfinalsfday">
               Finals Day:  {{tourfinalsday}} from {{sortablefinalsstarttime}} to {{sortablefinalsendtime}}
