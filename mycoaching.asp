@@ -297,7 +297,6 @@ if (myageinyears > 5 && myageinyears < 8) {
                   <li><a href="sampeace.html" title="Performance Coach - Sam Peace">Sam Peace</a></li>
                   <li><a href="belkacemchefri.html" title="Coach - Belkacem Chefri">Bel Chefri</a></li>
                   <li><a href="samhiskett.html" title="Coach - Sam Hiskett">Sam Hiskett</a></li>
-                  <li><a href="zachjones.html" title="Coach - Zach Jones">Zach Jones</a></li>
                </ul>
             </div>
           </div>
