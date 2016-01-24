@@ -1,4 +1,7 @@
 <%@language="JScript"%>
+<%
+Response.AddHeader("Access-Control-Allow-Origin", "http://www.hamptontennis.org.uk");
+%>
 <!--#include file="functions.asp" -->
 <!--#include file="strings.asp" -->
 <!--#include file="emailfuncs.asp" -->
