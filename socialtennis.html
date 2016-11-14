@@ -57,6 +57,9 @@
       <p>
         The club has 3 social tennis sessions each week. Primarily for adult members, the sessions give you a chance to meet up with other tennis members outside of league tennis or club tournaments. The days/times when 3 of the tennis courts are given over for social tennis are shown below. The format is doubles played in a friendly atmosphere - but dont think your tennis wont be challenged!
       </p>
+    </div>
+    <div class="large-6 medium-6 small-12 columns">
+
       <div class="row compare">
           <div class="large-4 columns">
               <ul class="pricing-table">
@@ -81,7 +84,9 @@
           </div>
       </div>
     </div>
+  </div>
 
+<div class="row">
     <div class="large-6 medium-6 small-12 columns">
       <div class="panel">
         <h3>Saturday Family Social tennis</h3>
@@ -97,6 +102,19 @@
       </div>
     </div>
  
+    <div class="large-6 medium-6 small-12 columns">
+      <div class="panel">
+        <h3>Sunday Family Social tennis</h3>
+        <h5 style="color:red;">New from Autumn 2016</h5>
+        <p>
+          Complementing our Saturday social tennis session, we are launching a new family social tennis session on Sunday afternoons 2pm to 4pm starting from Sunday, 12<sup>th</sup> November, 2016.
+        </p>
+        <p>
+          The session is aimed at families who have children playing full ball tennis who are looking to build up their match playing skills. This is a relaxed social with adults and children mixing in together, all standards are welcome (children must be able to play full court tennis with regular tennis balls).
+        </p>
+      </div>
+    </div>
+
   </div>
   
   <div class="row">
@@ -108,6 +126,12 @@
       <p>
         From time to time, the club organises competitive social tournaments designed to get more of our membership playing. For some years, for example, we ran a MAXI-Tennis tournament at the same time as the 6-Nations rugby, where teams were named after the 6 nations rugby sides. 
       </p>
+
+      <div id="futuretournaments"></div>   <!-- upcoming and running tournaments -->
+
+      <div id="pasttournaments"></div>     <!-- completed tournaments this year -->
+
+<!--
       <p>
         In <a href="tournaments.html">spring 2014</a>, we have organised the following social tournaments:
       </p>
@@ -125,6 +149,8 @@
       <p>
         Please contact Nathan Wiggin on <a href="mailto:wiggin5000@hotmail.com">wiggin5000@hotmail.com</a> for more information or to book your place in one of the tournaments. 
       </p>
+-->
+
     </div>
   </div>
   <!--   Define the footer area  -->
@@ -219,9 +245,102 @@
 
   <!--  end of footer definition  -->
 
+ <!--  Handlebars templates      -->
+
+      <script id="futuretourlist-template" type="x-handlebars-template">
+      {{#if futureTournaments}}
+        <h3>Tournaments Coming Up</h3>
+          
+        {{#each futureTournaments}}
+        <div class="row tournament panel">
+
+          <div class="large-12 medium-12 small-12 columns">
+            <h6>{{tourtitle}}</h6>
+            {{#if tourfinalsday}}
+            <p class="tournamentwhen">Tournament matches may be played from {{startdate}}</p>
+            <p class="tourfinalsfday">
+              Finals Day:  {{tourfinalsday}} from {{sortablefinalsstarttime}} to {{sortablefinalsendtime}}
+            </p>
+            {{else}}
+            <p class="tournamentwhen">Starts {{tourstart}} at {{tourstarttime}} and finishes at {{tourend}} at approximately {{tourendtime}}</p>
+            {{/if}}
+            <p class="tournamentinclusion">
+              {{tourwho}}
+            </p>
+              {{#if tourblurb}}
+              <p class="tourblurb">
+                {{tourblurb}}
+              </p>
+              {{/if}}
+           <p class="tournamentfee">
+              {{tourcost}}
+            </p>
+            {{#if toururl}}
+            <p class="tournamentflyer">
+              <a href="{{toururl}}">More information &raquo;</a>
+            </p>
+            {{/if}}
+            <hr />
+            <p class="tournamentcontact">
+              {{tourcontact}}</a>
+            </p>
+          </div>
+
+        </div>
+        <hr />
+        {{/each}}
+      {{/if}}
+
+      </script>
+
+
+      <script id="pasttourlist-template" type="x-handlebars-template">
+        {{#if pastTournaments}}
+          <h3>Tournaments Run Recently</h3>
+          
+          {{#each pastTournaments}}
+          <div class="collapsible">{{tourtitle}}<span></span></div>
+            <div class="collapsible-container">
+              <p class="tournamentwhen">Start: {{startdate}}</p>
+              {{#if tourfinalsday}}
+              <p class="tourfinalsfday">
+                Finals Day:  {{tourfinalsday}} from {{sortablefinalsstarttime}} to {{sortablefinalsendtime}}
+              </p>
+              {{/if}}
+              <p class="tournamentinclusion">
+                {{tourwho}}
+              </p>
+              {{#if tourblurb}}
+              <p class="tourblurb">
+                {{tourblurb}}
+              </p>
+              {{/if}}
+               <p class="tournamentfee">
+                  {{tourcost}}
+                </p>
+                {{#if toururl}}
+                <p class="tournamentflyer">
+                  <a href="{{toururl}}">More information &raquo;</a>
+                </p>
+                {{/if}}
+                <hr />
+                <p class="tournamentcontact">
+                  {{tourcontact}}</a>
+                </p>
+            </div> <!--   end of class collapsible-container div     -->
+
+          {{/each}}
+        {{/if}}
+       </script>
+
+  <!--    end of Handlebars templates    -->
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="/js/jquery.collapsible.js"></script>
     <script src="js/app.js"></script>
+    <!-- <script src="http://l2.io/ip.js?var=myip"></script> -->
+    <script src="bower_components/handlebars/handlebars.js"></script>
+   <script src="/js/socialtournaments.js"></script>
   </body>
 </html>
