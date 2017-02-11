@@ -139,7 +139,7 @@ mydob = dateasstring(dobdate);
     <ul class="title-area">
       <!-- Title Area -->
       <li class="name">
-        <a href="http://hamptontennis.org.uk"><img src="./img/small_logo.gif" /></a><br />
+        <a href="https://hamptontennis.org.uk"><img src="./img/small_logo.gif" /></a><br />
         <!-- <h1><a href="#">Hampton-in-Arden Tennis Club </a></h1>   -->
       </li>
       <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -263,7 +263,7 @@ if (myageinyears > 5 && myageinyears < 8) {
           <div class="row">
             <div class="large-3 medium-3 small-12 clublogo columns">
                 <p class="footermenuhead"><a href="index.html">Home</a></p>
-                <a href="http://hamptontennis.org.uk"><img src="./img/logo.gif" /></a>
+                <a href="https://hamptontennis.org.uk"><img src="./img/logo.gif" /></a>
                 <br />
             </div>
             <div class="large-3 medium-3 small-12 columns">
