@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	var jsonstring = new String("");
-	var url = "http://hamptontennis.org.uk/juniors/fetchJSON.asp?id=6";
+	var url = "https://hamptontennis.org.uk/juniors/fetchJSON.asp?id=6";
 	// var eventsfound = false;
 	$.getJSON(url,function(data){
 
@@ -24,7 +24,7 @@ $(document).ready(function() {
 		// Handlebars.registerPartial("description", $("#shoe-description").html());    
 		$("#coachlist").append (theTemplate(coachdata)); 
 		// jsonstring = JSON.stringify(data);
-		$("#receivedjson").html('JSON received back from fetchJSON.asp?id=2 is <br /><br />'+jsonstring+'<br /><hr />');
+		// $("#receivedjson").html('JSON received back from fetchJSON.asp?id=2 is <br /><br />'+jsonstring+'<br /><hr />');
 	});  // end of function(data)
 })  // end of document.ready
 

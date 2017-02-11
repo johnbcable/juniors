@@ -40,7 +40,7 @@ function showPosts(key)
 	var query = "select * from feed where url='"+obj.feed+"' LIMIT 2";
 	
 	/* Forming the URL to YQL: */
-	var url = "http://query.yahooapis.com/v1/public/yql?q="+encodeURIComponent(query)+"&format=json&callback=?";
+	var url = "https://query.yahooapis.com/v1/public/yql?q="+encodeURIComponent(query)+"&format=json&callback=?";
 	
 	$.getJSON(url,function(data){
 

@@ -4,7 +4,7 @@ function getFutureTournaments() {
 	// Displays all upcoming tournaments
 
 	var jsonstring = new String("");
-	var url = "http://hamptontennis.org.uk/juniors/fetchJSON.asp?id=8";
+	var url = "https://hamptontennis.org.uk/juniors/fetchJSON.asp?id=8";
 	// var eventsfound = false;
 	$.getJSON(url,function(data){
 
@@ -27,7 +27,7 @@ function getFutureTournaments() {
 		// Handlebars.registerPartial("description", $("#shoe-description").html());    
 		$("#futuretournaments").append (theTemplate(tourdata)); 
 		// jsonstring = JSON.stringify(data);
-		$("#receivedjson").html('JSON received back from fetchJSON.asp?id=2 is <br /><br />'+jsonstring+'<br /><hr />');
+		// $("#receivedjson").html('JSON received back from fetchJSON.asp?id=2 is <br /><br />'+jsonstring+'<br /><hr />');
 	});  // end of function(data)
 
 }
@@ -37,7 +37,7 @@ function getPastTournaments() {
 	// Displays past tournaments from this year
 
 	var jsonstring = new String("");
-	var url = "http://hamptontennis.org.uk/juniors/fetchJSON.asp?id=10";
+	var url = "https://hamptontennis.org.uk/juniors/fetchJSON.asp?id=10";
 	// var eventsfound = false;
 	$.getJSON(url,function(data){
 
@@ -65,7 +65,7 @@ function getPastTournaments() {
 	    });
 
 		// jsonstring = JSON.stringify(data);
-		$("#receivedjson").html('JSON received back from fetchJSON.asp?id=2 is <br /><br />'+jsonstring+'<br /><hr />');
+		// $("#receivedjson").html('JSON received back from fetchJSON.asp?id=2 is <br /><br />'+jsonstring+'<br /><hr />');
 	});  // end of function(data)
 
 }

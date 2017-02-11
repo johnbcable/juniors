@@ -5,7 +5,7 @@
 $(document).ready(function() {
 	
 	var args = getArgs();
-	var url = "http://hamptontennis.org.uk/juniors/fetchJSON.asp?id=9";
+	var url = "https://hamptontennis.org.uk/juniors/fetchJSON.asp?id=9";
 	var tourid;
 
 	if (args.id)

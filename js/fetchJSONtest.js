@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 	$('#mysubmit').click( function () {
 
-		var $url = new String("http://hamptontennis.org.uk/fetchJSON.asp?id=&thequery=");
+		var $url = new String("https://hamptontennis.org.uk/fetchJSON.asp?id=&thequery=");
 		var $str = $('#thequery').val();
 
 		$url += encodeURIComponent($str);
