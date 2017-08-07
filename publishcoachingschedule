@@ -1,0 +1,11 @@
+#  Copy old into prior-
+
+cp coaching_schedule.html prior_coaching_schedule.html
+cp coaching_schedule_daily.html prior_coaching_schedule_daily.html
+
+#  Copy next-  over current
+
+cp next_coaching_schedule.html coaching_schedule.html
+cp next_coaching_schedule_daily.html coaching_schedule_daily.html
+
+
