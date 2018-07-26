@@ -8,4 +8,5 @@ cp coaching_schedule_daily.html prior_coaching_schedule_daily.html
 cp next_coaching_schedule.html coaching_schedule.html
 cp next_coaching_schedule_daily.html coaching_schedule_daily.html
 
+# Remember to edit links in the copied files
 
